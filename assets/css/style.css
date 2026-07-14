@@ -50,7 +50,141 @@ header .container{
 .logo span{
     color:var(--secondary);
 }
+/* ================= HERO ================= */
 
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#F4F6F9 0%,#FFFFFF 100%);
+
+}
+
+.hero-content{
+
+    padding-top:80px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#EEF2FF;
+
+    color:var(--secondary);
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.hero h1{
+
+    font-family:var(--font-title);
+
+    font-size:4rem;
+
+    color:var(--primary);
+
+    line-height:1.1;
+
+}
+
+.hero h2{
+
+    font-family:var(--font-title);
+
+    font-size:2.4rem;
+
+    color:var(--secondary);
+
+    margin-top:15px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin-top:30px;
+
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:45px;
+
+}
+
+.btn-primary{
+
+    background:var(--secondary);
+
+    color:#fff;
+
+    padding:16px 32px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.btn-secondary{
+
+    border:2px solid var(--secondary);
+
+    color:var(--secondary);
+
+    padding:16px 32px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--secondary);
+
+    color:#fff;
+
+}
 nav ul{
     display:flex;
     list-style:none;
