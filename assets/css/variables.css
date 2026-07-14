@@ -1,13 +1,34 @@
+/* ===================================================
+   NeoPesquisa
+   Variáveis Globais
+   Versão 0.3
+=================================================== */
+
 :root{
 
---azul:#123B5D;
+    /* Cores */
 
---roxo:#5A43D6;
+    --primary:#123B5D;
+    --secondary:#5A43D6;
+    --accent:#FF7A00;
 
---laranja:#FF7A00;
+    --white:#FFFFFF;
+    --light:#F4F6F9;
+    --dark:#1E293B;
 
---cinza:#F4F6F9;
+    --text:#334155;
 
---branco:#FFFFFF;
+    /* Fontes */
+
+    --font-title:'Poppins',sans-serif;
+    --font-text:'Inter',sans-serif;
+
+    /* Espaçamentos */
+
+    --container:1200px;
+
+    --radius:12px;
+
+    --transition:.30s;
 
 }
