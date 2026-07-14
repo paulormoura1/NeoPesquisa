@@ -1,135 +1,57 @@
-body{
+/* =====================================================
+   NeoPesquisa
+   style.css
+   Versão 0.3
+===================================================== */
 
-margin:0;
-
-font-family:'Inter',sans-serif;
-
-background:#F4F6F9;
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.navbar{
+body{
+    font-family:var(--font-text);
+    background:var(--light);
+    color:var(--text);
+}
 
-display:flex;
+.container{
+    width:min(1200px,92%);
+    margin:auto;
+}
 
-justify-content:space-between;
+/* ================= HEADER ================= */
 
-align-items:center;
+header{
+    width:100%;
+    background:var(--white);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+}
 
-padding:25px 80px;
-
-background:white;
-
-box-shadow:0 4px 15px rgba(0,0,0,.08);
-
+header .container{
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .logo{
-
-font-size:30px;
-
-font-family:'Poppins',sans-serif;
-
-font-weight:700;
-
-color:#5A43D6;
-
+    font-family:var(--font-title);
+    font-size:2rem;
+    font-weight:700;
+    color:var(--primary);
 }
 
-.navbar ul{
-
-display:flex;
-
-list-style:none;
-
-gap:35px;
-
+.logo span{
+    color:var(--secondary);
 }
 
-.navbar a{
-
-text-decoration:none;
-
-color:#123B5D;
-
-font-weight:500;
-
-}
-
-.hero{
-
-height:85vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:20px;
-
-}
-
-.hero h1{
-
-font-family:'Poppins';
-
-font-size:62px;
-
-color:#123B5D;
-
-margin-bottom:5px;
-
-}
-
-.hero h2{
-
-font-family:'Poppins';
-
-font-size:36px;
-
-color:#5A43D6;
-
-margin-top:0;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-max-width:700px;
-
-line-height:1.7;
-
-}
-
-.botao{
-
-margin-top:40px;
-
-padding:18px 45px;
-
-background:#FF7A00;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:50px;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-.botao:hover{
-
-transform:translateY(-4px);
-
-}
+nav ul{
+    display:flex;
+    list-style:none;
+    gap
