@@ -66,6 +66,14 @@ header .container{
 
 .hero-content{
 
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
     padding-top:80px;
 
 }
@@ -186,6 +194,86 @@ header .container{
 
 }
 nav ul{
+
     display:flex;
+
+    align-items:center;
+
     list-style:none;
-    gap
+
+    gap:32px;
+
+}
+
+nav ul li{
+
+    list-style:none;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:var(--primary);
+
+    font-family:var(--font-text);
+
+    font-weight:600;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+nav ul li a:hover{
+
+    color:var(--secondary);
+
+}
+
+nav ul li a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:3px;
+
+    background:var(--secondary);
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover::after{
+
+    width:100%;
+
+}
+/* ================= HERO IMAGE ================= */
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:520px;
+
+}
