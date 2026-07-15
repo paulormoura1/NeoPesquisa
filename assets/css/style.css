@@ -554,3 +554,154 @@ nav ul li a:hover::after{
     transition:.3s;
 
 }
+/* ================= DIFFERENTIALS ================= */
+
+.differentials{
+
+    padding:140px 0;
+
+    background:#FFFFFF;
+
+}
+
+.differentials-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.differentials-image{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.differentials-image img{
+
+    width:100%;
+
+    max-width:650px;
+
+    border-radius:28px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.10);
+
+}
+
+.section-badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#EEF2FF;
+
+    color:var(--secondary);
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.differentials-content h2{
+
+    font-family:var(--font-title);
+
+    font-size:3rem;
+
+    line-height:1.2;
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.differentials-content>p{
+
+    font-size:1.1rem;
+
+    line-height:1.9;
+
+    color:#4F5D75;
+
+    margin-bottom:45px;
+
+}
+
+.feature{
+
+    display:flex;
+
+    gap:22px;
+
+    margin-bottom:30px;
+
+    align-items:flex-start;
+
+}
+
+.feature-icon{
+
+    width:62px;
+
+    height:62px;
+
+    border-radius:16px;
+
+    background:rgba(90,70,255,.08);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-shrink:0;
+
+}
+
+.feature-icon svg{
+
+    width:30px;
+
+    height:30px;
+
+    stroke:var(--secondary);
+
+    stroke-width:2;
+
+}
+
+.feature h3{
+
+    font-family:var(--font-title);
+
+    color:var(--primary);
+
+    font-size:1.3rem;
+
+    margin-bottom:8px;
+
+}
+
+.feature p{
+
+    color:#4F5D75;
+
+    line-height:1.7;
+
+}
