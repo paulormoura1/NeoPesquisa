@@ -705,3 +705,128 @@ nav ul li a:hover::after{
     line-height:1.7;
 
 }
+/* ================= JOURNEY ================= */
+
+.journey{
+
+    padding:140px 0;
+
+    background:#F8FAFD;
+
+}
+
+.journey-timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:25px;
+
+    margin-top:80px;
+
+    position:relative;
+
+}
+
+.journey-timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:42px;
+
+    left:8%;
+
+    right:8%;
+
+    height:4px;
+
+    background:linear-gradient(
+        90deg,
+        var(--secondary),
+        #8A7BFF
+    );
+
+    z-index:0;
+
+}
+
+.journey-step{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+}
+
+.journey-icon{
+
+    width:84px;
+
+    height:84px;
+
+    margin:0 auto 25px;
+
+    background:#FFFFFF;
+
+    border:3px solid rgba(90,70,255,.12);
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.journey-icon svg{
+
+    width:38px;
+
+    height:38px;
+
+    stroke:var(--secondary);
+
+    stroke-width:2;
+
+}
+
+.journey-step:hover .journey-icon{
+
+    transform:scale(1.08);
+
+    border-color:var(--secondary);
+
+}
+
+.journey-step h3{
+
+    font-family:var(--font-title);
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+    font-size:1.25rem;
+
+}
+
+.journey-step p{
+
+    color:#4F5D75;
+
+    line-height:1.7;
+
+    font-size:.96rem;
+
+}
