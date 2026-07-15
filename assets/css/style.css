@@ -1242,3 +1242,125 @@ CTA RESPONSIVO
     }
 
 }
+/*==================================================
+TESTIMONIALS
+==================================================*/
+
+.testimonials{
+
+    padding:100px 0;
+
+    background:#f8faff;
+
+}
+
+.testimonials-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:70px;
+
+}
+
+.testimonial-card{
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:35px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(88,72,255,.12);
+
+}
+
+.testimonial-stars{
+
+    color:#f7b500;
+
+    font-size:20px;
+
+    margin-bottom:20px;
+
+    letter-spacing:3px;
+
+}
+
+.testimonial-text{
+
+    color:#4b5563;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.testimonial-author{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.testimonial-author img{
+
+    width:68px;
+
+    height:68px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    background:#eef2ff;
+
+}
+
+.testimonial-author h4{
+
+    margin-bottom:5px;
+
+    color:#163d6b;
+
+}
+
+.testimonial-author span{
+
+    color:#6b7280;
+
+    font-size:15px;
+
+}
+/*==================================================
+TESTIMONIALS RESPONSIVO
+==================================================*/
+
+@media(max-width:991px){
+
+    .testimonials-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+}
