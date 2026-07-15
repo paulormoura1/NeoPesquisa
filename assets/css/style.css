@@ -541,3 +541,16 @@ nav ul li a:hover::after{
     font-size:.95rem;
 
 }
+.area-card:hover .area-icon{
+
+    background:rgba(90,70,255,.14);
+
+}
+
+.area-card:hover .area-icon svg{
+
+    transform:scale(1.08);
+
+    transition:.3s;
+
+}
