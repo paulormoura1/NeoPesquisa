@@ -1278,6 +1278,12 @@ TESTIMONIALS
 
     transition:.35s;
 
+    min-height:380px;
+
+    display:flex;
+
+    flex-direction:column;
+
 }
 
 .testimonial-card:hover{
@@ -1294,8 +1300,7 @@ TESTIMONIALS
 
     font-size:20px;
 
-    margin-bottom:20px;
-
+    margin-bottom:28px;
     letter-spacing:3px;
 
 }
@@ -1306,7 +1311,9 @@ TESTIMONIALS
 
     line-height:1.8;
 
-    margin-bottom:35px;
+    margin-bottom:42px;
+
+    flex:1;
 
 }
 
