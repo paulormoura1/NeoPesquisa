@@ -428,3 +428,116 @@ nav ul li a:hover::after{
     color:#4F5D75;
 
 }
+/* ================= AREAS ================= */
+
+.areas{
+
+    padding:120px 0;
+
+    background:#F8FAFD;
+
+}
+
+.areas-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+    margin-top:70px;
+
+}
+
+.area-card{
+
+    background:#FFFFFF;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    border:1px solid rgba(90,70,255,.08);
+
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.area-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(90,70,255,.25);
+
+    box-shadow:0 22px 55px rgba(0,0,0,.10);
+
+}
+
+.area-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    background:rgba(90,70,255,.08);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.area-icon svg{
+
+    width:36px;
+
+    height:36px;
+
+    stroke:var(--secondary);
+
+    stroke-width:2;
+
+}
+
+.area-card h3{
+
+    font-family:var(--font-title);
+
+    color:var(--primary);
+
+    font-size:1.4rem;
+
+    margin-bottom:18px;
+
+}
+
+.area-card p{
+
+    color:#4F5D75;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.area-link{
+
+    color:var(--secondary);
+
+    font-weight:600;
+
+    font-size:.95rem;
+
+}
