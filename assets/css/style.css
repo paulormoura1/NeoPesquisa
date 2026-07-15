@@ -72,7 +72,7 @@ header .container{
 
     align-items:center;
 
-    gap:40px;
+    gap:10px;
 
     padding-top:40px;
 
@@ -274,7 +274,7 @@ nav ul li a:hover::after{
 
     width:100%;
 
-    max-width:650px;
+    max-width:720px;
 
     display:block;
 
