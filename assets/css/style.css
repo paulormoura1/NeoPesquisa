@@ -1051,7 +1051,7 @@ nav ul li a:hover::after{
     position:relative;
 
     overflow:hidden;
-
+    min-height:340px;
 }
 
 .trust-card::before{
