@@ -830,3 +830,176 @@ nav ul li a:hover::after{
     font-size:.96rem;
 
 }
+/* ================= RESOURCES ================= */
+
+.resources{
+
+    padding:140px 0;
+
+    background:#FFFFFF;
+
+}
+
+.resources-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+    margin-top:80px;
+
+}
+
+.resource-card{
+
+    background:#FFFFFF;
+
+    border:1px solid #EEF2FF;
+
+    border-radius:24px;
+
+    padding:40px 35px;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.resource-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(
+        90deg,
+        var(--secondary),
+        #7C6CFF
+    );
+
+    transform:scaleX(0);
+
+    transform-origin:left;
+
+    transition:.35s;
+
+}
+
+.resource-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 22px 55px rgba(0,0,0,.10);
+
+}
+
+.resource-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.resource-icon{
+
+    width:82px;
+
+    height:82px;
+
+    border-radius:22px;
+
+    background:#EEF2FF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:28px;
+
+    transition:.35s;
+
+}
+
+.resource-card:hover .resource-icon{
+
+    transform:rotate(-6deg) scale(1.08);
+
+    background:var(--secondary);
+
+}
+
+.resource-icon svg{
+
+    width:40px;
+
+    height:40px;
+
+    stroke:var(--secondary);
+
+    stroke-width:2;
+
+    transition:.35s;
+
+}
+
+.resource-card:hover .resource-icon svg{
+
+    stroke:#FFFFFF;
+
+}
+
+.resource-card h3{
+
+    font-family:var(--font-title);
+
+    font-size:1.5rem;
+
+    color:var(--primary);
+
+    margin-bottom:18px;
+
+}
+
+.resource-card p{
+
+    line-height:1.8;
+
+    color:#4F5D75;
+
+    margin-bottom:30px;
+
+}
+
+.resource-card a{
+
+    text-decoration:none;
+
+    color:var(--secondary);
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.resource-card:hover a{
+
+    letter-spacing:.5px;
+
+}
