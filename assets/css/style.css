@@ -381,12 +381,34 @@ nav ul li a:hover::after{
 
 .card-icon{
 
-    font-size:3.4rem;
+    width:90px;
 
-    margin-bottom:28px;
+    height:90px;
+
+    margin:0 auto 30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(90,70,255,.06);
 
 }
+.card-icon svg{
 
+    width:62px;
+
+    height:62px;
+
+    stroke:var(--secondary);
+
+    stroke-width:2.2;
+
+}
 .about-card h3{
 
     font-family:var(--font-title);
