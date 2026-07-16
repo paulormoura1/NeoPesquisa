@@ -1373,3 +1373,46 @@ TESTIMONIALS RESPONSIVO
     }
 
 }
+/* ======================================================
+   FAQ
+====================================================== */
+
+.faq{
+
+    padding:100px 0;
+
+    background:#f8fbff;
+
+}
+
+.faq-container{
+
+    max-width:900px;
+
+    margin:60px auto 0;
+
+}
+
+.faq-item{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    margin-bottom:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+}
+
+.faq-item:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 18px 40px rgba(88,72,255,.10);
+
+}
