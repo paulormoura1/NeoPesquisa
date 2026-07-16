@@ -901,8 +901,40 @@ TESTIMONIALS
 
 </section>
 </main>
-    <script>
+  <script>
+
     lucide.createIcons();
+
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach(item => {
+
+        const button = item.querySelector(".faq-question");
+
+        button.addEventListener("click", () => {
+
+            faqItems.forEach(other => {
+
+                if(other !== item){
+
+                    other.classList.remove("active");
+
+                    other.querySelector("span").textContent = "+";
+
+                }
+
+            });
+
+            item.classList.toggle("active");
+
+            const icon = item.querySelector("span");
+
+            icon.textContent = item.classList.contains("active") ? "−" : "+";
+
+        });
+
+    });
+
 </script>
 </body>
 
