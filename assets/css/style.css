@@ -1487,8 +1487,21 @@ RESPONSIVO
 }
 
 @media (max-width:768px){
+.resources-grid{
 
-...
+    grid-template-columns:1fr;
+
+    gap:24px;
+
+}
+
+.resource-card{
+
+    width:100%;
+
+    max-width:100%;
+
+}
 
 }
 
