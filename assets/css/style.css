@@ -1487,24 +1487,48 @@ RESPONSIVO
 }
 
 @media (max-width:768px){
-.resources-grid{
 
-    grid-template-columns:1fr;
+    .resources-grid{
 
-    gap:24px;
+        grid-template-columns:1fr;
+
+        gap:24px;
+
+    }
+
+    .resource-card{
+
+        width:100%;
+
+        max-width:100%;
+
+    }
+
+    .hero-content{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        text-align:center;
+
+    }
+
+    .hero p{
+
+        max-width:100%;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
 
 }
-
-.resource-card{
-
-    width:100%;
-
-    max-width:100%;
-
-}
-
-}
-
 @media (max-width:576px){
 
 ...
