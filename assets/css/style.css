@@ -1465,3 +1465,14 @@ TESTIMONIALS RESPONSIVO
     font-size:1rem;
 
 }
+.faq-answer{
+
+    display:none;
+
+}
+
+.faq-item.active .faq-answer{
+
+    display:block;
+
+}
