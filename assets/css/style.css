@@ -1278,7 +1278,7 @@ TESTIMONIALS
 
     transition:.35s;
 
-    min-height:380px;
+    min-height:360px;
 
     display:flex;
 
@@ -1329,9 +1329,9 @@ TESTIMONIALS
 
 .testimonial-author img{
 
-    width:76px;
+    width:70px;
 
-    height:76px;
+    height:70px;
 
     border-radius:50%;
 
@@ -1346,6 +1346,8 @@ TESTIMONIALS
     margin-bottom:5px;
 
     color:#163d6b;
+    font-size:1.1rem;
+    font-weight:700;
 
 }
 
