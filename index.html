@@ -906,7 +906,12 @@ TESTIMONIALS
   <script>
 
     lucide.createIcons();
+const menuToggle = document.querySelector(".menu-toggle");
+const navigation = document.querySelector("header nav");
 
+menuToggle.addEventListener("click", () => {
+    navigation.classList.toggle("active");
+});
     const faqItems = document.querySelectorAll(".faq-item");
 
     faqItems.forEach(item => {
