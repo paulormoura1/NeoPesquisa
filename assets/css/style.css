@@ -1530,6 +1530,10 @@ RESPONSIVO
     min-height:auto;
     padding:35px 25px;
 }
+   .section-title h2{
+    font-size:2.2rem;
+    line-height:1.2;
+}
 }
     .resource-card{
 
