@@ -50,6 +50,15 @@ header .container{
 .logo span{
     color:var(--secondary);
 }
+.menu-toggle{
+    display:none;
+    background:none;
+    border:none;
+    color:var(--primary);
+    font-size:2rem;
+    cursor:pointer;
+    padding:5px;
+}
 /* ================= HERO ================= */
 
 .hero{
@@ -1549,6 +1558,40 @@ RESPONSIVO
 
 .area-card{
     padding:30px 25px;
+}
+   .menu-toggle{
+    display:block;
+}
+
+header nav{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#FFFFFF;
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+}
+
+header nav.active{
+    display:block;
+}
+
+header nav ul{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:0;
+    padding:20px 4%;
+}
+
+header nav ul li{
+    width:100%;
+}
+
+header nav ul li a{
+    display:block;
+    width:100%;
+    padding:14px 0;
 }
 }
     .resource-card{
