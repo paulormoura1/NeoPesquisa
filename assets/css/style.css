@@ -1505,7 +1505,9 @@ RESPONSIVO
     .feature{
         text-align:left;
     }
-
+.differentials-content h2{
+    font-size:2.2rem;
+}
 }
     .resource-card{
 
