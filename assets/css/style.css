@@ -1521,6 +1521,15 @@ RESPONSIVO
 .journey-step{
     text-align:center;
 }
+   .trust-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+}
+
+.trust-card{
+    min-height:auto;
+    padding:35px 25px;
+}
 }
     .resource-card{
 
