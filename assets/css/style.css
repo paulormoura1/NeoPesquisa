@@ -1509,6 +1509,18 @@ RESPONSIVO
     font-size:2.2rem !important;
     line-height:1.2;
 }
+   .journey-timeline{
+    grid-template-columns:1fr;
+    gap:35px;
+}
+
+.journey-timeline::before{
+    display:none;
+}
+
+.journey-step{
+    text-align:center;
+}
 }
     .resource-card{
 
