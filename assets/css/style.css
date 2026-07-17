@@ -1542,6 +1542,14 @@ RESPONSIVO
 .about-card{
     padding:35px 25px;
 }
+   .areas-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+}
+
+.area-card{
+    padding:30px 25px;
+}
 }
     .resource-card{
 
