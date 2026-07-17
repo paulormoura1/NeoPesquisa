@@ -1489,13 +1489,24 @@ RESPONSIVO
 @media (max-width:768px){
 
     .resources-grid{
-
         grid-template-columns:1fr;
-
         gap:24px;
-
     }
 
+    .differentials-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .differentials-content{
+        text-align:center;
+    }
+
+    .feature{
+        text-align:left;
+    }
+
+}
     .resource-card{
 
         width:100%;
