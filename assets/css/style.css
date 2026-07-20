@@ -1632,3 +1632,80 @@ header nav ul li a{
 ...
 
 }
+/*==================================================
+PÁGINA PESQUISA CIENTÍFICA
+==================================================*/
+
+.hero-page{
+
+    padding:140px 0 90px;
+
+    background:linear-gradient(
+        135deg,
+        #f7f9ff 0%,
+        #ffffff 100%
+    );
+
+}
+
+.hero-page-grid{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    background:rgba(89,70,255,.10);
+
+    color:var(--primary);
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+}
+
+.hero-page-content h1{
+
+    font-size:3.3rem;
+
+    line-height:1.15;
+
+    color:var(--dark);
+
+    margin-bottom:28px;
+
+}
+
+.hero-page-content p{
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+    color:#555;
+
+    margin-bottom:40px;
+
+}
+
+.hero-page-image img{
+
+    width:100%;
+
+    display:block;
+
+}
