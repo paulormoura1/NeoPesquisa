@@ -84,3 +84,22 @@ OS TRÊS PILARES
     }
 
 }
+/* ==========================
+   MODELO NEOPESQUISA
+========================== */
+
+@media (max-width:768px){
+
+.neo-model{
+
+    padding:70px 0;
+
+}
+
+.neo-model-image{
+
+    margin-top:35px;
+
+}
+
+}
