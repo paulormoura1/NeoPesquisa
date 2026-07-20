@@ -1803,3 +1803,87 @@ margin-top:40px;
 }
 
 }
+/* ===================================================
+MÓDULO 06.3
+OS TRÊS PILARES
+=================================================== */
+
+.pillars-section{
+
+    padding:100px 0;
+
+    background:#f8fbff;
+
+}
+
+.pillars-section .section-title{
+
+    max-width:900px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+}
+
+.pillars-section h2{
+
+    margin:18px 0;
+
+}
+
+.pillars-section p{
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.pillars-section small{
+
+    display:block;
+
+    margin-top:20px;
+
+    color:#777;
+
+    font-style:italic;
+
+}
+
+.pillars-diagram{
+
+    text-align:center;
+
+}
+
+.pillars-diagram img{
+
+    max-width:850px;
+
+    width:100%;
+
+}
+/* ===================================================
+MÓDULO 06.3
+OS TRÊS PILARES
+=================================================== */
+
+@media(max-width:991px){
+
+.pillars-section{
+
+padding:70px 0;
+
+}
+
+.pillars-section h2{
+
+font-size:2rem;
+
+}
+
+}
