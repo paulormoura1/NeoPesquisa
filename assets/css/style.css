@@ -1780,29 +1780,6 @@ PESQUISA CIENTÍFICA
 }
 /* Pesquisa Científica */
 
-@media(max-width:991px){
-
-.research-grid{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.research-text h2{
-
-font-size:2rem;
-
-}
-
-.research-image{
-
-margin-top:40px;
-
-}
-
-}
 /* ===================================================
 MÓDULO 06.3
 OS TRÊS PILARES
@@ -1867,23 +1844,4 @@ OS TRÊS PILARES
     width:100%;
 
 }
-/* ===================================================
-MÓDULO 06.3
-OS TRÊS PILARES
-=================================================== */
 
-@media(max-width:991px){
-
-.pillars-section{
-
-padding:70px 0;
-
-}
-
-.pillars-section h2{
-
-font-size:2rem;
-
-}
-
-}
