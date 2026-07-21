@@ -1868,3 +1868,57 @@ OS TRÊS PILARES
     max-width:950px;
 
 }
+/* ==================================================
+   FUNDAMENTOS DA PESQUISA
+================================================== */
+
+.research-foundation{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.research-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:60px;
+}
+
+.research-card{
+    background:#fff;
+    padding:35px 30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.research-card:hover{
+    transform:translateY(-8px);
+}
+
+.research-icon{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.research-card h3{
+    margin-bottom:15px;
+    color:var(--primary);
+}
+
+.research-card p{
+    line-height:1.8;
+    color:#555;
+}
+
+.section-reference{
+    margin-top:60px;
+    padding:25px;
+    background:#f7f9fc;
+    border-left:4px solid var(--primary);
+    border-radius:10px;
+    font-size:.95rem;
+    line-height:1.8;
+    color:#555;
+}
