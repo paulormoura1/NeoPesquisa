@@ -103,3 +103,12 @@ OS TRÊS PILARES
 }
 
 }
+/* FUNDAMENTOS DA PESQUISA */
+
+@media (max-width:768px){
+
+    .research-cards{
+        grid-template-columns:1fr;
+    }
+
+}
