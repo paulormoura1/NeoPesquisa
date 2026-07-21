@@ -152,3 +152,31 @@ OS TRÊS PILARES
     }
 
 }
+/* GUIA METODOLÓGICO */
+
+@media (max-width:768px){
+
+    .guide-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .guide-card{
+        min-height:150px;
+        padding:25px 20px;
+    }
+
+    .guide-card h3{
+        font-size:1.1rem;
+        line-height:1.5;
+    }
+
+    .guide-icon{
+        margin-bottom:15px;
+    }
+
+    .research-guide{
+        padding:70px 0;
+    }
+
+}
