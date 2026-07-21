@@ -1922,3 +1922,57 @@ OS TRÊS PILARES
     line-height:1.8;
     color:#555;
 }
+/* ==================================================
+   COMO NASCE UMA PESQUISA
+================================================== */
+
+.research-process{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.process-timeline{
+    margin-top:60px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.process-step{
+    width:180px;
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.process-step:hover{
+    transform:translateY(-8px);
+}
+
+.process-icon{
+    font-size:48px;
+    margin-bottom:18px;
+}
+
+.process-step h3{
+    margin-bottom:12px;
+    color:var(--primary);
+}
+
+.process-step p{
+    font-size:.95rem;
+    line-height:1.7;
+    color:#555;
+}
+
+.process-arrow{
+    font-size:34px;
+    color:var(--primary);
+    font-weight:700;
+    align-self:center;
+}
