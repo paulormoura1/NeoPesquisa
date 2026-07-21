@@ -1998,14 +1998,19 @@ OS TRÊS PILARES
 .guide-grid{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:30px;
-    margin-top:60px;
+    gap:35px;
+    margin-top:80px;
 }
 
 .guide-card{
     background:#fff;
     border-radius:20px;
-    padding:35px 25px;
+    padding:28px 22px;
+    min-height:180px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     text-align:center;
     text-decoration:none;
     color:var(--text-color);
@@ -2019,8 +2024,8 @@ OS TRÊS PILARES
 }
 
 .guide-icon{
-    font-size:2.8rem;
-    margin-bottom:18px;
+    font-size:2.4rem;
+    margin-bottom:20px;
 }
 
 .guide-card h3{
