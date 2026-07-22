@@ -2033,3 +2033,28 @@ OS TRÊS PILARES
     line-height:1.5;
     font-weight:600;
 }
+.table-responsive{
+    overflow-x:auto;
+}
+
+.comparison-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:2rem;
+}
+
+.comparison-table th,
+.comparison-table td{
+    padding:16px;
+    border:1px solid #e5e7eb;
+    text-align:left;
+}
+
+.comparison-table th{
+    background:#f8fafc;
+    font-weight:700;
+}
+
+.comparison-table tr:nth-child(even){
+    background:#fafafa;
+}
