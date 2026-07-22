@@ -1,4 +1,62 @@
-/* =====================================================
+    <span>Principais Abordagens</span>
+
+            <h2>Quais são as principais abordagens da pesquisa científica?</h2>
+
+            <p>
+                A metodologia científica classifica as pesquisas em três abordagens principais. Cada uma possui objetivos, características e formas próprias de produzir conhecimento. A escolha depende do problema de pesquisa, dos objetivos do estudo e do tipo de evidência que se pretende obter (Creswell & Creswell, 2021).
+            </p>
+
+        </div>
+
+        <div class="guide-grid-3">
+
+            <a href="abordagem-qualitativa.html" class="guide-card">
+
+                <div class="guide-icon">
+                    <i data-lucide="message-circle"></i>
+                </div>
+
+                <h3>Pesquisa Qualitativa</h3>
+
+                <p>
+                    Busca compreender significados, percepções, experiências e fenômenos sociais em profundidade.
+                </p>
+
+            </a>
+
+            <a href="abordagem-quantitativa.html" class="guide-card">
+
+                <div class="guide-icon">
+                    <i data-lucide="bar-chart-3"></i>
+                </div>
+
+                <h3>Pesquisa Quantitativa</h3>
+
+                <p>
+                    Utiliza dados numéricos, mensuração e análises estatísticas para responder às questões da pesquisa.
+                </p>
+
+            </a>
+
+            <a href="abordagem-mista.html" class="guide-card">
+
+                <div class="guide-icon">
+                    <i data-lucide="git-merge"></i>
+                </div>
+
+                <h3>Pesquisa de Métodos Mistos</h3>
+
+                <p>
+                    Integra abordagens qualitativas e quantitativas para ampliar a compreensão do fenômeno investigado.
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>/* =====================================================
    NeoPesquisa
    style.css
    Versão 0.3 
@@ -1998,7 +2056,7 @@ OS TRÊS PILARES
 .guide-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:35px;
+    gap:25px;
     margin-top:80px;
 }
 
