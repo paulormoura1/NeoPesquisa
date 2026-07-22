@@ -57,7 +57,7 @@ header .container{
     color:var(--primary);
     font-size:2rem;
     cursor:pointer;
-    padding:5px;
+    5px;
 }
 /* ================= HERO ================= */
 
@@ -91,7 +91,7 @@ header .container{
 
     display:inline-block;
 
-    padding:8px 18px;
+    8px 18px;
 
     background:#EEF2FF;
 
@@ -159,7 +159,7 @@ header .container{
 
     color:#fff;
 
-    padding:16px 32px;
+    16px 32px;
 
     border-radius:12px;
 
@@ -183,7 +183,7 @@ header .container{
 
     color:var(--secondary);
 
-    padding:16px 32px;
+    16px 32px;
 
     border-radius:12px;
 
@@ -292,7 +292,7 @@ nav ul li a:hover::after{
 
 .about{
 
-    padding:120px 0;
+    120px 0;
 
     background:#FFFFFF;
 
@@ -312,7 +312,7 @@ nav ul li a:hover::after{
 
     display:inline-block;
 
-    padding:8px 18px;
+    8px 18px;
 
     background:#EEF2FF;
 
@@ -364,7 +364,7 @@ nav ul li a:hover::after{
 
     background:#FFFFFF;
 
-    padding:45px 35px;
+    45px 35px;
 
     border-radius:22px;
 
@@ -441,7 +441,7 @@ nav ul li a:hover::after{
 
 .areas{
 
-    padding:120px 0;
+    120px 0;
 
     background:#F8FAFD;
 
@@ -465,7 +465,7 @@ nav ul li a:hover::after{
 
     border-radius:22px;
 
-    padding:35px;
+    35px;
 
     border:1px solid rgba(90,70,255,.08);
 
@@ -567,7 +567,7 @@ nav ul li a:hover::after{
 
 .differentials{
 
-    padding:140px 0;
+    140px 0;
 
     background:#FFFFFF;
 
@@ -609,7 +609,7 @@ nav ul li a:hover::after{
 
     display:inline-block;
 
-    padding:8px 18px;
+    8px 18px;
 
     background:#EEF2FF;
 
@@ -718,7 +718,7 @@ nav ul li a:hover::after{
 
 .journey{
 
-    padding:140px 0;
+    140px 0;
 
     background:#F8FAFD;
 
@@ -843,7 +843,7 @@ nav ul li a:hover::after{
 
 .resources{
 
-    padding:140px 0;
+    140px 0;
 
     background:#FFFFFF;
 
@@ -869,7 +869,7 @@ nav ul li a:hover::after{
 
     border-radius:24px;
 
-    padding:40px 35px;
+    padding:30px;
 
     box-shadow:0 12px 35px rgba(0,0,0,.05);
 
@@ -878,7 +878,7 @@ nav ul li a:hover::after{
     position:relative;
 
     overflow:hidden;
-    min-height:320px;
+    min-height:220px;
 }
 
 .resource-card::before{
@@ -1023,7 +1023,7 @@ nav ul li a:hover::after{
 
 .trust{
 
-    padding:140px 0;
+    140px 0;
 
     background:linear-gradient(180deg,#F8FAFD 0%,#FFFFFF 100%);
 
@@ -1049,7 +1049,7 @@ nav ul li a:hover::after{
 
     border-radius:24px;
 
-    padding:45px 30px;
+    45px 30px;
 
     text-align:center;
 
@@ -1179,7 +1179,7 @@ CTA
 ==================================================*/
 
 .cta{
-    padding:100px 0;
+    100px 0;
     background:#ffffff;
 }
 
