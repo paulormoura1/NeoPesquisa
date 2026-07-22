@@ -2005,17 +2005,14 @@ OS TRÊS PILARES
 .guide-card{
     background:#fff;
     border-radius:20px;
-    padding:28px 22px;
-    min-height:180px;
+    padding:35px 30px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+    min-height:260px;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
-    text-align:center;
-    text-decoration:none;
-    color:var(--text-color);
-    box-shadow:0 10px 30px rgba(0,0,0,.06);
-    transition:.3s;
 }
 
 .guide-card:hover{
@@ -2024,14 +2021,23 @@ OS TRÊS PILARES
 }
 
 .guide-icon{
-    font-size:2.4rem;
-    margin-bottom:20px;
+    margin-bottom:18px;
+}
+
+.guide-icon svg{
+    width:42px;
+    height:42px;
 }
 
 .guide-card h3{
-    font-size:1.15rem;
-    line-height:1.5;
-    font-weight:600;
+    margin-bottom:12px;
+    font-size:1.45rem;
+}
+.guide-card p{
+    font-size:1rem;
+    line-height:1.7;
+    color:#475569;
+    margin-top:8px;
 }
 .table-responsive{
     overflow-x:auto;
