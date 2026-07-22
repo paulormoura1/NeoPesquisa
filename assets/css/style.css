@@ -370,7 +370,7 @@ nav ul li a:hover::after{
 
     display:inline-block;
 
-    8px 18px;
+    padding:8px 18px;
 
     background:#EEF2FF;
 
