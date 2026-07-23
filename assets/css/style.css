@@ -216,7 +216,7 @@ nav ul{
 
     list-style:none;
 
-    gap:32px;
+    gap:40px;
 
 }
 
@@ -234,7 +234,11 @@ nav ul li a{
 
     font-family:var(--font-text);
 
+    font-size:1.05rem;
+
     font-weight:600;
+
+    letter-spacing:.2px;
 
     transition:.3s;
 
