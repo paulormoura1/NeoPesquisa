@@ -1,65 +1,7 @@
-    <span>Principais Abordagens</span>
-
-            <h2>Quais são as principais abordagens da pesquisa científica?</h2>
-
-            <p>
-                A metodologia científica classifica as pesquisas em três abordagens principais. Cada uma possui objetivos, características e formas próprias de produzir conhecimento. A escolha depende do problema de pesquisa, dos objetivos do estudo e do tipo de evidência que se pretende obter (Creswell & Creswell, 2021).
-            </p>
-
-        </div>
-
-        <div class="guide-grid-3">
-
-            <a href="abordagem-qualitativa.html" class="guide-card">
-
-                <div class="guide-icon">
-                    <i data-lucide="message-circle"></i>
-                </div>
-
-                <h3>Pesquisa Qualitativa</h3>
-
-                <p>
-                    Busca compreender significados, percepções, experiências e fenômenos sociais em profundidade.
-                </p>
-
-            </a>
-
-            <a href="abordagem-quantitativa.html" class="guide-card">
-
-                <div class="guide-icon">
-                    <i data-lucide="bar-chart-3"></i>
-                </div>
-
-                <h3>Pesquisa Quantitativa</h3>
-
-                <p>
-                    Utiliza dados numéricos, mensuração e análises estatísticas para responder às questões da pesquisa.
-                </p>
-
-            </a>
-
-            <a href="abordagem-mista.html" class="guide-card">
-
-                <div class="guide-icon">
-                    <i data-lucide="git-merge"></i>
-                </div>
-
-                <h3>Pesquisa de Métodos Mistos</h3>
-
-                <p>
-                    Integra abordagens qualitativas e quantitativas para ampliar a compreensão do fenômeno investigado.
-                </p>
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>/* =====================================================
+  /* =====================================================
    NeoPesquisa
    style.css
-   Versão 0.3 
+   Versão 0.3
 ===================================================== */
 
 *{
@@ -108,6 +50,7 @@ header .container{
 .logo span{
     color:var(--secondary);
 }
+
 .menu-toggle{
     display:none;
     background:none;
@@ -115,8 +58,9 @@ header .container{
     color:var(--primary);
     font-size:2rem;
     cursor:pointer;
-    5px;
+    padding:5px;
 }
+
 /* ================= HERO ================= */
 
 .hero{
@@ -149,7 +93,7 @@ header .container{
 
     display:inline-block;
 
-    8px 18px;
+    padding:8px 18px;
 
     background:#EEF2FF;
 
@@ -217,7 +161,7 @@ header .container{
 
     color:#fff;
 
-    16px 32px;
+    padding:16px 32px;
 
     border-radius:12px;
 
@@ -241,7 +185,7 @@ header .container{
 
     color:var(--secondary);
 
-    16px 32px;
+    padding:16px 32px;
 
     border-radius:12px;
 
@@ -260,6 +204,7 @@ header .container{
     color:#fff;
 
 }
+
 nav ul{
 
     display:flex;
@@ -346,11 +291,12 @@ nav ul li a:hover::after{
     display:block;
 
 }
+
 /* ================= ABOUT ================= */
 
 .about{
 
-    120px 0;
+    padding:120px 0;
 
     background:#FFFFFF;
 
@@ -422,7 +368,7 @@ nav ul li a:hover::after{
 
     background:#FFFFFF;
 
-    45px 35px;
+    padding:45px 35px;
 
     border-radius:22px;
 
@@ -465,6 +411,7 @@ nav ul li a:hover::after{
     background:rgba(90,70,255,.06);
 
 }
+
 .card-icon svg{
 
     width:62px;
@@ -476,6 +423,7 @@ nav ul li a:hover::after{
     stroke-width:2.2;
 
 }
+
 .about-card h3{
 
     font-family:var(--font-title);
@@ -495,11 +443,12 @@ nav ul li a:hover::after{
     color:#4F5D75;
 
 }
+
 /* ================= AREAS ================= */
 
 .areas{
 
-    120px 0;
+    padding:120px 0;
 
     background:#F8FAFD;
 
@@ -523,7 +472,7 @@ nav ul li a:hover::after{
 
     border-radius:22px;
 
-    35px;
+    padding:35px;
 
     border:1px solid rgba(90,70,255,.08);
 
@@ -608,6 +557,7 @@ nav ul li a:hover::after{
     font-size:.95rem;
 
 }
+
 .area-card:hover .area-icon{
 
     background:rgba(90,70,255,.14);
@@ -621,11 +571,12 @@ nav ul li a:hover::after{
     transition:.3s;
 
 }
+
 /* ================= DIFFERENTIALS ================= */
 
 .differentials{
 
-    140px 0;
+    padding:140px 0;
 
     background:#FFFFFF;
 
@@ -667,7 +618,7 @@ nav ul li a:hover::after{
 
     display:inline-block;
 
-    8px 18px;
+    padding:8px 18px;
 
     background:#EEF2FF;
 
@@ -697,7 +648,7 @@ nav ul li a:hover::after{
 
 }
 
-.differentials-content>p{
+.differentials-content > p{
 
     font-size:1.1rem;
 
@@ -776,7 +727,7 @@ nav ul li a:hover::after{
 
 .journey{
 
-    140px 0;
+    padding:140px 0;
 
     background:#F8FAFD;
 
@@ -897,11 +848,12 @@ nav ul li a:hover::after{
     font-size:.96rem;
 
 }
+
 /* ================= RESOURCES ================= */
 
 .resources{
 
-    140px 0;
+    padding:140px 0;
 
     background:#FFFFFF;
 
@@ -936,7 +888,9 @@ nav ul li a:hover::after{
     position:relative;
 
     overflow:hidden;
+
     min-height:220px;
+
 }
 
 .resource-card::before{
@@ -1072,16 +1026,18 @@ nav ul li a:hover::after{
     transition:.3s;
 
 }
+
 .resource-card:hover a{
 
     transform:translateX(6px);
 
 }
+
 /* ================= TRUST ================= */
 
 .trust{
 
-    140px 0;
+    padding:140px 0;
 
     background:linear-gradient(180deg,#F8FAFD 0%,#FFFFFF 100%);
 
@@ -1107,7 +1063,7 @@ nav ul li a:hover::after{
 
     border-radius:24px;
 
-    45px 30px;
+    padding:45px 30px;
 
     text-align:center;
 
@@ -1118,7 +1074,9 @@ nav ul li a:hover::after{
     position:relative;
 
     overflow:hidden;
+
     min-height:340px;
+
 }
 
 .trust-card::before{
@@ -1237,7 +1195,7 @@ CTA
 ==================================================*/
 
 .cta{
-    100px 0;
+    padding:100px 0;
     background:#ffffff;
 }
 
@@ -1280,6 +1238,7 @@ CTA
     height:auto;
     display:block;
 }
+
 /*==================================================
 CTA RESPONSIVO
 ==================================================*/
@@ -1309,6 +1268,7 @@ CTA RESPONSIVO
     }
 
 }
+
 /*==================================================
 TESTIMONIALS
 ==================================================*/
@@ -1368,6 +1328,7 @@ TESTIMONIALS
     font-size:20px;
 
     margin-bottom:28px;
+
     letter-spacing:3px;
 
 }
@@ -1413,7 +1374,9 @@ TESTIMONIALS
     margin-bottom:5px;
 
     color:#163d6b;
+
     font-size:1.1rem;
+
     font-weight:700;
 
 }
@@ -1425,6 +1388,7 @@ TESTIMONIALS
     font-size:15px;
 
 }
+
 /*==================================================
 TESTIMONIALS RESPONSIVO
 ==================================================*/
@@ -1440,6 +1404,7 @@ TESTIMONIALS RESPONSIVO
     }
 
 }
+
 /* ======================================================
    FAQ
 ====================================================== */
@@ -1483,6 +1448,7 @@ TESTIMONIALS RESPONSIVO
     box-shadow:0 18px 40px rgba(88,72,255,.10);
 
 }
+
 .faq-question{
 
     width:100%;
@@ -1531,9 +1497,6 @@ TESTIMONIALS RESPONSIVO
 
     font-size:1rem;
 
-}
-.faq-answer{
-
     display:none;
 
 }
@@ -1570,124 +1533,119 @@ RESPONSIVO
     .feature{
         text-align:left;
     }
-.differentials-content h2{
-    font-size:2.2rem !important;
-    line-height:1.2;
-}
-   .journey-timeline{
-    grid-template-columns:1fr;
-    gap:35px;
-}
 
-.journey-timeline::before{
-    display:none;
-}
+    .differentials-content h2{
+        font-size:2.2rem !important;
+        line-height:1.2;
+    }
 
-.journey-step{
-    text-align:center;
-}
-   .trust-grid{
-    grid-template-columns:1fr;
-    gap:24px;
-}
+    .journey-timeline{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
 
-.trust-card{
-    min-height:auto;
-    padding:35px 25px;
-}
-   .section-title h2{
-    font-size:2.2rem;
-    line-height:1.2;
-}
-   .about-cards{
-    grid-template-columns:1fr;
-    gap:24px;
-}
+    .journey-timeline::before{
+        display:none;
+    }
 
-.about-card{
-    padding:35px 25px;
-}
-   .areas-grid{
-    grid-template-columns:1fr;
-    gap:24px;
-}
+    .journey-step{
+        text-align:center;
+    }
 
-.area-card{
-    padding:30px 25px;
-}
-   .menu-toggle{
-    display:block;
-}
+    .trust-grid{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
 
-header nav{
-    display:none;
-    position:absolute;
-    top:80px;
-    left:0;
-    width:100%;
-    background:#FFFFFF;
-    box-shadow:0 12px 25px rgba(0,0,0,.10);
-}
+    .trust-card{
+        min-height:auto;
+        padding:35px 25px;
+    }
 
-header nav.active{
-    display:block;
-}
+    .section-title h2{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
 
-header nav ul{
-    flex-direction:column;
-    align-items:flex-start;
-    gap:0;
-    padding:20px 4%;
-}
+    .about-cards{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
 
-header nav ul li{
-    width:100%;
-}
+    .about-card{
+        padding:35px 25px;
+    }
 
-header nav ul li a{
-    display:block;
-    width:100%;
-    padding:14px 0;
-}
-}
+    .areas-grid{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+    .area-card{
+        padding:30px 25px;
+    }
+
     .resource-card{
-
         width:100%;
-
         max-width:100%;
-
     }
 
     .hero-content{
-
         grid-template-columns:1fr;
-
         gap:40px;
-
         text-align:center;
-
     }
 
     .hero p{
-
         max-width:100%;
-
     }
 
     .hero-buttons{
-
         justify-content:center;
-
         flex-wrap:wrap;
+    }
 
+    .menu-toggle{
+        display:block;
+    }
+
+    header nav{
+        display:none;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#FFFFFF;
+        box-shadow:0 12px 25px rgba(0,0,0,.10);
+    }
+
+    header nav.active{
+        display:block;
+    }
+
+    header nav ul{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:0;
+        padding:20px 4%;
+    }
+
+    header nav ul li{
+        width:100%;
+    }
+
+    header nav ul li a{
+        display:block;
+        width:100%;
+        padding:14px 0;
     }
 
 }
+
 @media (max-width:576px){
 
-...
-
 }
+
 /*==================================================
 PÁGINA PESQUISA CIENTÍFICA
 ==================================================*/
@@ -1765,6 +1723,7 @@ PÁGINA PESQUISA CIENTÍFICA
     display:block;
 
 }
+
 /* ===================================================
 PESQUISA CIENTÍFICA
 =================================================== */
@@ -1836,7 +1795,6 @@ PESQUISA CIENTÍFICA
     display:block;
 
 }
-/* Pesquisa Científica */
 
 /* ===================================================
 MÓDULO 06.3
@@ -1902,13 +1860,15 @@ OS TRÊS PILARES
     width:100%;
 
 }
+
 /* ==========================
-   MODELO NEOPESQUISA
+MODELO NEOPESQUISA
 ========================== */
 
 .neo-model{
 
     padding:90px 0;
+
     background:#fff;
 
 }
@@ -1916,6 +1876,7 @@ OS TRÊS PILARES
 .neo-model-image{
 
     margin-top:50px;
+
     text-align:center;
 
 }
@@ -1923,202 +1884,340 @@ OS TRÊS PILARES
 .neo-model-image img{
 
     width:100%;
+
     max-width:950px;
 
 }
+
 /* ==================================================
-   FUNDAMENTOS DA PESQUISA
+FUNDAMENTOS DA PESQUISA
 ================================================== */
 
 .research-foundation{
+
     padding:100px 0;
+
     background:#ffffff;
+
 }
 
 .research-cards{
+
     display:grid;
+
     grid-template-columns:repeat(3,1fr);
+
     gap:30px;
+
     margin-top:60px;
+
 }
 
 .research-card{
+
     background:#fff;
+
     padding:35px 30px;
+
     border-radius:18px;
+
     text-align:center;
+
     box-shadow:0 15px 40px rgba(0,0,0,.06);
+
     transition:.3s;
+
 }
 
 .research-card:hover{
+
     transform:translateY(-8px);
+
 }
 
 .research-icon{
+
     font-size:52px;
+
     margin-bottom:20px;
+
 }
 
 .research-card h3{
+
     margin-bottom:15px;
+
     color:var(--primary);
+
 }
 
 .research-card p{
+
     line-height:1.8;
+
     color:#555;
+
 }
 
 .section-reference{
+
     margin-top:60px;
+
     padding:25px;
+
     background:#f7f9fc;
+
     border-left:4px solid var(--primary);
+
     border-radius:10px;
+
     font-size:.95rem;
+
     line-height:1.8;
+
     color:#555;
+
 }
+
 /* ==================================================
-   COMO NASCE UMA PESQUISA
+COMO NASCE UMA PESQUISA
 ================================================== */
 
 .research-process{
+
     padding:100px 0;
+
     background:#f8fafc;
+
 }
 
 .process-line{
+
     position:relative;
+
     display:flex;
+
     justify-content:space-between;
+
     align-items:flex-start;
+
     gap:20px;
+
     margin-top:70px;
+
 }
 
 .process-line::before{
+
     content:"";
+
     position:absolute;
+
     top:42px;
+
     left:8%;
+
     right:8%;
+
     height:4px;
+
     background:linear-gradient(90deg,#4f46e5,#7c3aed);
+
     z-index:1;
+
     border-radius:50px;
+
 }
 
 .process-item{
+
     position:relative;
+
     flex:1;
+
     text-align:center;
+
     z-index:2;
+
 }
 
 .process-circle{
+
     width:84px;
+
     height:84px;
+
     margin:0 auto 25px;
+
     border-radius:50%;
+
     background:#ffffff;
+
     border:5px solid var(--primary);
+
     display:flex;
+
     align-items:center;
+
     justify-content:center;
+
     font-size:36px;
+
     box-shadow:0 12px 30px rgba(0,0,0,.08);
+
 }
 
 .process-item h3{
+
     margin-bottom:12px;
+
     color:var(--primary);
+
     font-size:1.1rem;
+
 }
 
 .process-item p{
+
     max-width:180px;
+
     margin:0 auto;
+
     line-height:1.7;
+
     color:#555;
+
     font-size:.95rem;
+
 }
+
 /* ===================================================
-   GUIA METODOLÓGICO
+GUIA METODOLÓGICO
 =================================================== */
 
 .research-guide{
+
     padding:100px 0;
+
     background:#f8faff;
+
 }
 
 .guide-grid{
+
     display:grid;
+
     grid-template-columns:repeat(3,1fr);
+
     gap:25px;
+
     margin-top:80px;
+
 }
 
 .guide-card{
+
     background:#fff;
+
     border-radius:20px;
+
     padding:35px 30px;
+
     text-align:center;
-    transition:0.3s;
+
+    transition:.3s;
+
     box-shadow:0 8px 25px rgba(0,0,0,.06);
+
     min-height:260px;
+
     display:flex;
+
     flex-direction:column;
+
     justify-content:center;
+
 }
 
 .guide-card:hover{
+
     transform:translateY(-8px);
+
     box-shadow:0 18px 40px rgba(0,0,0,.12);
+
 }
 
 .guide-icon{
+
     margin-bottom:18px;
+
 }
 
 .guide-icon svg{
+
     width:42px;
+
     height:42px;
+
 }
 
 .guide-card h3{
+
     margin-bottom:12px;
+
     font-size:1.45rem;
+
 }
+
 .guide-card p{
+
     font-size:1rem;
+
     line-height:1.7;
+
     color:#475569;
+
     margin-top:8px;
+
 }
+
 .table-responsive{
+
     overflow-x:auto;
+
 }
 
 .comparison-table{
+
     width:100%;
+
     border-collapse:collapse;
+
     margin-top:2rem;
+
 }
 
 .comparison-table th,
 .comparison-table td{
+
     padding:16px;
+
     border:1px solid #e5e7eb;
+
     text-align:left;
+
 }
 
 .comparison-table th{
+
     background:#f8fafc;
+
     font-weight:700;
+
 }
 
 .comparison-table tr:nth-child(even){
+
     background:#fafafa;
+
 }
