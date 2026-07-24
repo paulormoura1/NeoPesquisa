@@ -2236,3 +2236,57 @@ GUIA METODOLÓGICO
     background:#fafafa;
 
 }
+/* =====================================================
+   CONTINUIDADE DA APRENDIZAGEM
+===================================================== */
+
+.learning-next{
+
+    padding:90px 0;
+    background:#F8FAFC;
+    text-align:center;
+
+}
+
+.learning-next-content{
+
+    max-width:760px;
+    margin:0 auto;
+
+}
+
+.learning-next-content span{
+
+    display:inline-block;
+    padding:8px 18px;
+    background:#EEF2FF;
+    color:var(--secondary);
+    border-radius:30px;
+    font-size:.9rem;
+    font-weight:600;
+    margin-bottom:20px;
+
+}
+
+.learning-next-content h2{
+
+    margin-bottom:25px;
+
+}
+
+.learning-next-content p{
+
+    font-size:1.1rem;
+    line-height:1.8;
+    margin-bottom:45px;
+
+}
+
+.learning-next-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
