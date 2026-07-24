@@ -313,8 +313,7 @@ nav ul li a:hover::after{
 
     max-width:760px;
 
-    margin:0 auto 70px;
-
+    margin:50px auto 70px;
     text-align:center;
 
 }
