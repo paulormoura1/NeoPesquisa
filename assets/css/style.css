@@ -2153,7 +2153,13 @@ GUIA METODOLÓGICO
     justify-content:center;
 
 }
+.guide-card{
 
+    text-decoration:none;
+
+    color:inherit;
+
+}
 .guide-card:hover{
 
     transform:translateY(-8px);
@@ -2161,7 +2167,11 @@ GUIA METODOLÓGICO
     box-shadow:0 18px 40px rgba(0,0,0,.12);
 
 }
+.guide-card:hover{
 
+    text-decoration:none;
+
+}
 .guide-icon{
 
     margin-bottom:18px;
