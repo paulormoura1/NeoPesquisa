@@ -2137,13 +2137,30 @@ GUIA METODOLÓGICO
     margin-top:80px;
 
 }
-.guide-grid-6 {
+.guide-grid-6{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 50px;
 
+}
+.procedimentos-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+@media (max-width:992px){
+    .procedimentos-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media (max-width:768px){
+    .procedimentos-grid{
+        grid-template-columns:1fr;
+    }
 }
 .guide-card{
 
