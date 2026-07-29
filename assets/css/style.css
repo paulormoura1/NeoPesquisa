@@ -2162,6 +2162,22 @@ GUIA METODOLÓGICO
         grid-template-columns:1fr;
     }
 }
+/* Hero exclusivo - Procedimentos Metodológicos */
+
+@media (max-width:768px){
+
+    .hero-procedimentos h1{
+        font-size:3rem;
+        line-height:1.15;
+    }
+
+    .hero-procedimentos p{
+        max-width:100%;
+        font-size:1.1rem;
+        line-height:1.8;
+    }
+
+}
 .guide-card{
 
     background:#fff;
