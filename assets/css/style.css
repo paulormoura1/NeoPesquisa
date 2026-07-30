@@ -2398,3 +2398,6 @@ GUIA METODOLÓGICO
     }
 
 }
+body{
+    overflow-x:hidden;
+}
