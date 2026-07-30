@@ -182,6 +182,8 @@ OS TRÊS PILARES
 }
 /* HERO DAS PÁGINAS INTERNAS */
 
+/* HERO DAS PÁGINAS INTERNAS */
+
 @media (max-width:768px){
 
     .hero-page{
@@ -194,8 +196,8 @@ OS TRÊS PILARES
     }
 
     .hero-page-content h1{
-        font-size:1rem;
-        color:red;
+        font-size:2.2rem;
+        line-height:1.2;
     }
 
     .hero-page-content p{
