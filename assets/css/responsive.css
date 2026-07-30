@@ -206,7 +206,18 @@ OS TRÊS PILARES
     }
 
     .hero-page-image{
-        display:none;
-    }
+
+    display:flex;
+    justify-content:center;
+    margin:10px 0 30px;
+
+}
+
+.hero-page-image img{
+
+    width:80%;
+    max-width:360px;
+
+}
 
 }
