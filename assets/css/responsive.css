@@ -194,7 +194,11 @@ OS TRÊS PILARES
         grid-template-columns:1fr;
         gap:30px;
     }
+    .hero-page-content{
 
+     text-align:center;
+
+}
     .hero-page-content h1{
         font-size:2.2rem;
         line-height:1.2;
