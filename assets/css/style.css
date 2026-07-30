@@ -2401,3 +2401,59 @@ GUIA METODOLÓGICO
 body{
     overflow-x:hidden;
 }
+/* =====================================================
+   TABELA COMPARATIVA - PROCEDIMENTOS METODOLÓGICOS
+===================================================== */
+
+.table-responsive{
+    width:100%;
+    overflow-x:auto;
+    margin-top:40px;
+}
+
+.comparison-table{
+    width:100%;
+    min-width:900px;
+    border-collapse:separate;
+    border-spacing:0;
+    background:#ffffff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.comparison-table thead th{
+
+    background:var(--primary-color);
+    color:#fff;
+    padding:18px 20px;
+    text-align:left;
+    font-size:1rem;
+    font-weight:600;
+}
+
+.comparison-table tbody td{
+
+    padding:18px 20px;
+    border-bottom:1px solid #eceff3;
+    vertical-align:top;
+    line-height:1.7;
+}
+
+.comparison-table tbody tr:nth-child(even){
+
+    background:#f8fafc;
+}
+
+.comparison-table tbody tr:hover{
+
+    background:#eef5ff;
+    transition:.25s;
+}
+
+.comparison-table tbody td:first-child{
+
+    font-weight:600;
+    color:var(--primary-color);
+    width:22%;
+}
