@@ -2378,3 +2378,23 @@ GUIA METODOLÓGICO
     }
 
 }
+/* =====================================================
+   OUTROS PROCEDIMENTOS METODOLÓGICOS
+   (Exclusivo da página procedimentos-pesquisa.html)
+===================================================== */
+
+.outros-procedimentos-grid{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(320px, 420px));
+    justify-content:center;
+    gap:2rem;
+    margin-top:3rem;
+}
+
+@media (max-width:768px){
+
+    .outros-procedimentos-grid{
+        grid-template-columns:1fr;
+    }
+
+}
