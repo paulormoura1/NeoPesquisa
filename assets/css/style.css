@@ -2453,7 +2453,7 @@ body{
 
 .comparison-table thead th{
 
-    background:var(--primary-color);
+    background:var(--primary);
     color:#fff;
     padding:18px 20px;
     text-align:left;
@@ -2483,6 +2483,6 @@ body{
 .comparison-table tbody td:first-child{
 
     font-weight:600;
-    color:var(--primary-color);
+    color:var(--primary);
     width:22%;
 }
