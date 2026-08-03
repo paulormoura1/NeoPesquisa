@@ -2296,57 +2296,6 @@ GUIA METODOLÓGICO
 
 }
 /* =====================================================
-SEÇÕES DE CONTEÚDO
-===================================================== */
-
-.content-section{
-
-    padding:90px 0;
-    background:#F8FAFC;
-
-}
-
-.content-section:nth-of-type(even){
-
-    background:#FFFFFF;
-
-}
-
-.section-header{
-
-    max-width:850px;
-    margin:0 auto 60px;
-    text-align:center;
-
-}
-
-.section-header span{
-
-    display:inline-block;
-    padding:8px 18px;
-    background:#EEF2FF;
-    color:var(--secondary);
-    border-radius:30px;
-    font-size:.9rem;
-    font-weight:600;
-    margin-bottom:20px;
-
-}
-
-.section-header h2{
-
-    margin-bottom:25px;
-
-}
-
-.section-header p{
-
-    font-size:1.08rem;
-    line-height:1.9;
-    color:#555;
-
-}
-/* =====================================================
    CONTINUIDADE DA APRENDIZAGEM
 ===================================================== */
 
