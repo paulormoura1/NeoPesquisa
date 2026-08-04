@@ -2599,3 +2599,74 @@ body{
     line-height:1.7;
 
 }
+/* ===== ETAPA 4 - FLUXO DO PROBLEMA DE PESQUISA ===== */
+
+.problem-flow{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin-top:40px;
+
+}
+
+.problem-card{
+
+    width:100%;
+
+    max-width:760px;
+
+    background:#fff;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+}
+
+.problem-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.08);
+
+}
+
+.problem-card h3{
+
+    margin:12px 0 0;
+
+    line-height:1.6;
+
+}
+
+.problem-arrow{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#4f46e5;
+
+}
+
+.problem-arrow svg{
+
+    width:34px;
+
+    height:34px;
+
+}
