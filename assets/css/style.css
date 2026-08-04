@@ -2498,3 +2498,6 @@ body{
     text-transform:uppercase;
     border-radius:999px;
 }
+.guide-card-flow{
+    justify-content:flex-start;
+}
