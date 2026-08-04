@@ -2486,3 +2486,15 @@ body{
     color:var(--primary);
     width:22%;
 }
+.card-tag{
+    display:inline-block;
+    margin-bottom:15px;
+    padding:6px 12px;
+    background:#eef2ff;
+    color:#4f46e5;
+    font-size:.75rem;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    border-radius:999px;
+}
