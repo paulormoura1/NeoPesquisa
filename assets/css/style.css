@@ -2561,4 +2561,8 @@ body{
 
 .reflection-card p{
     margin:0;
+    font-size:1.05rem;
+    font-weight:600;
+    line-height:1.5;
+    color:#1f2937;
 }
