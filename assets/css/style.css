@@ -2501,3 +2501,12 @@ body{
 .guide-card-flow{
     justify-content:flex-start;
 }
+.guide-grid-flow{
+    margin-top:35px;
+    justify-items:center;
+}
+
+.guide-card-flow{
+    max-width:320px;
+    justify-content:flex-start;
+}
