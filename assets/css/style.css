@@ -2714,6 +2714,55 @@ body{
     color:#4b5563;
 
 }
+.section-subtitle p{
+
+    max-width:850px;
+
+    margin:0 auto;
+
+    line-height:1.8;
+
+    color:#4b5563;
+
+}
+
+/* ===== CRÉDITO DAS ILUSTRAÇÕES ===== */
+
+.image-credit{
+
+    margin-top:30px;
+
+    padding-top:20px;
+
+    border-top:1px solid #e5e7eb;
+
+    text-align:center;
+
+}
+
+.image-credit strong{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:1rem;
+
+    color:#1f2937;
+
+}
+
+.image-credit p{
+
+    margin:0;
+
+    font-size:.95rem;
+
+    line-height:1.7;
+
+    color:#6b7280;
+
+}
 /* ===== RESPONSIVO - ETAPA 5 (Problema de Pesquisa) ===== */
 
 @media (max-width:768px){
