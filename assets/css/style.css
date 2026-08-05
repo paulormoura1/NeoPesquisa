@@ -2714,3 +2714,24 @@ body{
     color:#4b5563;
 
 }
+/* ===== RESPONSIVO - ETAPA 5 (Problema de Pesquisa) ===== */
+
+@media (max-width:768px){
+
+    .reflection-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .reflection-card{
+        max-width:100%;
+        padding:24px;
+    }
+
+    .reflection-card-center{
+        grid-column:auto;
+        justify-self:stretch;
+        max-width:100%;
+    }
+
+}
