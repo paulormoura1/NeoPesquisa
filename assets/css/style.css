@@ -2726,41 +2726,41 @@ body{
 
 }
 
-/* ===== CRÉDITO DAS ILUSTRAÇÕES ===== */
+/* ===== INFORMAÇÕES DA PÁGINA ===== */
 
-.image-credit{
+.page-info{
 
-    margin-top:30px;
+    margin-top:35px;
 
     padding-top:20px;
 
     border-top:1px solid #e5e7eb;
 
-    text-align:center;
-
 }
 
-.image-credit strong{
+.page-info h3{
 
-    display:block;
+    margin-bottom:18px;
 
-    margin-bottom:8px;
-
-    font-size:1rem;
+    font-size:1.35rem;
 
     color:#1f2937;
 
 }
 
-.image-credit p{
+.page-info p{
 
-    margin:0;
+    margin-bottom:12px;
 
-    font-size:.95rem;
-
-    line-height:1.7;
+    line-height:1.8;
 
     color:#6b7280;
+
+}
+
+.page-info p:last-child{
+
+    margin-bottom:0;
 
 }
 /* ===== RESPONSIVO - ETAPA 5 (Problema de Pesquisa) ===== */
