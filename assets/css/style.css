@@ -2210,6 +2210,9 @@ GUIA METODOLÓGICO
     color:inherit;
 
 }
+.objetivos-qualidade .guide-card {
+    min-height: 0;
+}
 .guide-card:hover{
 
     transform:translateY(-8px);
