@@ -2139,12 +2139,6 @@ GUIA METODOLÓGICO
 
 }
 
-.guide-grid-2 {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-    margin-top: 50px;
-}
-
 .guide-grid-6{
 
     display: grid;
