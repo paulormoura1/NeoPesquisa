@@ -2210,6 +2210,10 @@ GUIA METODOLÓGICO
     color:inherit;
 
 }
+.objetivos-qualidade .guide-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .objetivos-qualidade .guide-card {
     min-height: 0;
 }
