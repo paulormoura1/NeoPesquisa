@@ -2862,15 +2862,15 @@ body{
 }
 /* ===== ETAPA 1 - FLUXO DOS OBJETIVOS ===== */
 
-.objetivos-qualidade .problem-flow .problem-card{
+.problem-flow .problem-card{
     width:100%;
     max-width:620px !important;
-    min-height:0;
-    padding:28px 30px;
+    min-height:0 !important;
+    padding:28px 30px !important;
     text-align:center;
 }
 
-.objetivos-qualidade .problem-flow .problem-card h3{
+.problem-flow .problem-card h3{
     margin:15px 0 0 !important;
     font-size:1.15rem;
     line-height:1.55;
