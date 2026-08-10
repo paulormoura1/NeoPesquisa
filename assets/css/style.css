@@ -2686,10 +2686,13 @@ body{
 }
 /* ===== ETAPA 4 - FLUXO PROBLEMA E OBJETIVO GERAL ===== */
 
+/* ===== ETAPA 4 - FLUXO PROBLEMA E OBJETIVO GERAL ===== */
+
 .objetivos-fluxo .guide-card{
     width:100%;
-    max-width:760px;
+    max-width:620px;
     min-height:0;
+    padding:28px 30px;
 }
 .section-subtitle{
 
