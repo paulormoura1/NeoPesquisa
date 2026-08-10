@@ -2635,23 +2635,21 @@ body{
 }
 
 .problem-card{
-
     width:100%;
-
-    max-width:760px;
-
+    max-width:620px;
     background:#fff;
-
     border:1px solid #e5e7eb;
-
-    border-radius:18px;
-
-    padding:28px;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.05);
-
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
     transition:.3s;
+}
 
+.problem-card h3{
+    margin:15px 0 0;
+    font-size:1.15rem;
+    line-height:1.55;
 }
 
 .problem-card:hover{
@@ -2691,19 +2689,6 @@ body{
 }
 .problem-flow{
     margin-bottom:70px;
-}
-/* ===== ETAPA 1 - FLUXO DOS OBJETIVOS ===== */
-
-.problem-flow .problem-card{
-    max-width:620px;
-    padding:28px 32px;
-    text-align:center;
-}
-
-.problem-flow .problem-card h3{
-    margin:15px 0 0;
-    font-size:1.15rem;
-    line-height:1.55;
 }
 .section-subtitle{
 
