@@ -2899,3 +2899,11 @@ body{
 .referencias-section .section-title{
     margin:30px auto 35px;
 }
+.referencias-section p{
+    margin:0 0 14px;
+    line-height:1.6;
+}
+
+.referencias-section p:last-child{
+    margin-bottom:0;
+}
