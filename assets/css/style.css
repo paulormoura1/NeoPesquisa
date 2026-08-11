@@ -2882,3 +2882,15 @@ body{
 .objetivos-exemplo-grid .guide-card:last-child{
     grid-column:2;
 }
+@media (max-width:991px){
+
+    .objetivos-exemplo-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .objetivos-exemplo-grid .guide-card:last-child{
+        grid-column:auto;
+    }
+
+}
