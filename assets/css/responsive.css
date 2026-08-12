@@ -160,6 +160,9 @@ OS TRÊS PILARES
         grid-template-columns:1fr;
         gap:20px;
     }
+    .problema-tema-grid .guide-card:nth-child(4){
+    grid-column:auto;
+}
 .objetivos-exemplo-grid .guide-card:last-child{
     grid-column:1;
 }
