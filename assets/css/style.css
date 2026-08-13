@@ -1373,6 +1373,74 @@ CTA
     font-weight:600;
     white-space:nowrap;
 }
+/* =====================================================
+   ESQUELETO EXPANSÍVEL
+===================================================== */
+
+.structure-section{
+    width:100%;
+}
+
+.structure-summary{
+    display:grid;
+    grid-template-columns:70px 1fr 40px;
+    align-items:center;
+    gap:15px;
+
+    padding:22px 25px;
+
+    background:var(--primary);
+    color:#FFFFFF;
+
+    border-radius:14px;
+
+    cursor:pointer;
+    list-style:none;
+}
+
+.structure-summary::-webkit-details-marker{
+    display:none;
+}
+
+.structure-summary::marker{
+    display:none;
+}
+
+.structure-number{
+    font-weight:700;
+    opacity:.85;
+}
+
+.structure-summary strong{
+    font-size:1.05rem;
+    letter-spacing:.02em;
+}
+
+.structure-toggle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:1.6rem;
+    font-weight:400;
+}
+
+.structure-section[open] .structure-toggle{
+    font-size:0;
+}
+
+.structure-section[open] .structure-toggle::after{
+    content:"−";
+    font-size:1.6rem;
+}
+
+.structure-content{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+    padding-top:12px;
+}
 /*==================================================
 CTA RESPONSIVO
 ==================================================*/
