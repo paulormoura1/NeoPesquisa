@@ -1313,7 +1313,66 @@ CTA
 .method-table strong{
     color:#1f2937;
 }
+/* =====================================================
+   ESTRUTURA DA PESQUISA CIENTÍFICA
+===================================================== */
 
+.research-structure{
+    max-width:850px;
+    margin:45px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.structure-main{
+    background:var(--primary);
+    color:#fff;
+    padding:20px 25px;
+    border-radius:14px;
+    font-size:1.05rem;
+}
+
+.structure-item,
+.structure-subitem{
+    display:grid;
+    grid-template-columns:75px 1fr auto;
+    align-items:center;
+    gap:15px;
+
+    background:#fff;
+    padding:16px 22px;
+    border:1px solid #E8ECF3;
+    border-radius:12px;
+
+    color:inherit;
+    text-decoration:none;
+}
+
+.structure-item span,
+.structure-subitem span{
+    color:var(--secondary);
+    font-weight:700;
+}
+
+.structure-subitem{
+    margin-left:45px;
+}
+
+.structure-link{
+    transition:.25s;
+}
+
+.structure-link:hover{
+    transform:translateX(5px);
+    border-color:var(--secondary);
+}
+
+.structure-link small{
+    color:var(--secondary);
+    font-weight:600;
+    white-space:nowrap;
+}
 /*==================================================
 CTA RESPONSIVO
 ==================================================*/
