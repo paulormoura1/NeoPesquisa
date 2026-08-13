@@ -493,7 +493,22 @@ nav ul li a:hover::after{
   
     color:inherit;
 }
+.area-card,
+.area-card:link,
+.area-card:visited,
+.area-card:hover,
+.area-card:active{
 
+    text-decoration:none;
+
+}
+
+.area-card h3,
+.area-card p{
+
+    text-decoration:none;
+
+}
 .area-card:hover{
 
     transform:translateY(-8px);
