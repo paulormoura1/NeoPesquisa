@@ -488,7 +488,9 @@ nav ul li a:hover::after{
     transition:.35s;
 
     cursor:pointer;
+  
     text-decoration:none;
+  
     color:inherit;
 }
 
