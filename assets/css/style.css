@@ -2324,9 +2324,13 @@ GUIA METODOLÓGICO
 }
 
 .table-responsive{
-
+    width:100%;
     overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
 
+.table-responsive .method-table{
+    min-width:800px;
 }
 
 .comparison-table{
