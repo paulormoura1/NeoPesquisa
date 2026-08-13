@@ -2784,6 +2784,14 @@ body{
     margin-bottom:0;
 
 }
+.referencias-utilizadas p{
+    margin-bottom:18px;
+    line-height:1.7;
+}
+
+.referencias-utilizadas p:last-child{
+    margin-bottom:0;
+}
 /* ===== RESPONSIVO - ETAPA 5 (Problema de Pesquisa) ===== */
 
 @media (max-width:768px){
