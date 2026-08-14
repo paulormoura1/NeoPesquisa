@@ -1332,9 +1332,7 @@ CTA
     border-radius:14px;
     font-size:1.05rem;
 }
-.structure-final{
-    margin-top:10px;
-}
+
 .structure-item,
 .structure-subitem{
     display:grid;
