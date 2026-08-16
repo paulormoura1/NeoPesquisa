@@ -230,3 +230,29 @@ OS TRÊS PILARES
 }
 
 }
+/* ==================================================
+   PÁGINA CONTATO - RESPONSIVO
+================================================== */
+
+@media (max-width:768px){
+
+    .contact-container{
+        grid-template-columns:1fr;
+        gap:30px;
+        margin-top:35px;
+    }
+
+    .contact-info,
+    .contact-form{
+        padding:25px 20px;
+    }
+
+    .contact-item{
+        align-items:flex-start;
+    }
+
+    .contact-item a{
+        word-break:break-word;
+    }
+
+}
