@@ -1445,32 +1445,38 @@ CTA
 CTA RESPONSIVO
 ==================================================*/
 
-@media (max-width:){
+@media (max-width:768px){
 
     .cta{
-        padding:80px 0;
+        padding:60px 0;
     }
 
     .cta-content{
         flex-direction:column;
         text-align:center;
-        gap:50px;
+        gap:35px;
     }
 
     .cta-text{
         max-width:100%;
+        width:100%;
     }
 
     .cta-buttons{
         justify-content:center;
     }
 
+    .cta-image{
+        width:100%;
+    }
+
     .cta-image img{
+        width:100%;
         max-width:520px;
+        margin:0 auto;
     }
 
 }
-
 /*==================================================
 TESTIMONIALS
 ==================================================*/
