@@ -20,61 +20,36 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJCRGJLW7V"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
         gtag('config', 'G-KJCRGJLW7V');
     </script>
 
 </head>
 
 <body>
-    <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KJCRGJLW7V"></script>
 
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-KJCRGJLW7V');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- HERO -->
 
-    <title>NeoPesquisa | Aprenda a Pesquisar</title>
-
-    <meta name="description"
-        content="Aprenda a pesquisar. Descubra. Produza conhecimento.">
-
-    <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
-</head>
-
-<body>
-
-<header>
-    <section class="hero-page">
+<section class="hero-page">
 
     <div class="container hero-page-grid">
 
         <div class="hero-page-content">
 
-            <span class="hero-tag">
-                Contato
-            </span>
+            <span class="hero-tag">Contato</span>
 
             <h1>Entre em contato com a NeoPesquisa</h1>
 
@@ -95,7 +70,11 @@
     </div>
 
 </section>
-    <section class="content-section">
+
+
+<!-- CONTATO -->
+
+<section class="content-section">
 
     <div class="container">
 
@@ -112,7 +91,11 @@
 
         </div>
 
+
         <div class="contact-container">
+
+
+            <!-- INFORMAÇÕES -->
 
             <div class="contact-info">
 
@@ -128,11 +111,13 @@
                     <i data-lucide="mail"></i>
 
                     <div>
+
                         <strong>E-mail</strong>
 
                         <a href="mailto:paulormoura1@gmail.com">
                             paulormoura1@gmail.com
                         </a>
+
                     </div>
 
                 </div>
@@ -140,18 +125,23 @@
             </div>
 
 
+            <!-- FORMULÁRIO -->
+
             <form
                 class="contact-form"
                 action="https://formsubmit.co/paulormoura1@gmail.com"
                 method="POST">
 
-                <input type="hidden"
-                       name="_subject"
-                       value="Nova mensagem - NeoPesquisa">
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nova mensagem - NeoPesquisa">
 
-                <input type="hidden"
-                       name="_captcha"
-                       value="false">
+                <input
+                    type="hidden"
+                    name="_captcha"
+                    value="false">
+
 
                 <div class="form-group">
 
@@ -220,3 +210,12 @@
     </div>
 
 </section>
+
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+
+</html>
