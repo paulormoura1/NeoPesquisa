@@ -2,776 +2,118 @@
 <html lang="pt-BR">
 
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KJCRGJLW7V"></script>
 
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KJCRGJLW7V');
+</script>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dúvidas do Pesquisador | NeoPesquisa</title>
+    <title>FAQ | Dúvidas do Pesquisador | NeoPesquisa</title>
 
-    <meta name="description"
-          content="Respostas rápidas para dúvidas frequentes durante o desenvolvimento da pesquisa científica.">
+<meta name="description"
+    content="Respostas rápidas e práticas para dúvidas frequentes durante a realização de uma pesquisa científica.">
 
+    <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 
 <body>
-<section class="hero-page">
 
-    <div class="container hero-page-grid">
-
-        <div class="hero-page-content">
-
-            <span class="hero-tag">
-                Dúvidas do Pesquisador
-            </span>
-
-            <h1>
-                Encontre respostas rápidas para dúvidas comuns durante a pesquisa.
-            </h1>
-
-            <p>
-                Orientações práticas para ajudar você a tomar decisões durante
-                o desenvolvimento da pesquisa científica.
-            </p>
-
-        </div>
-
-        <div class="hero-page-image">
-
-            <img src="assets/img/duvidas-pesquisador.png"
-                 alt="Dúvidas frequentes durante o desenvolvimento da pesquisa científica">
-
-        </div>
-
-    </div>
-
-</section>
-<section class="content-section">
+<header>
 
     <div class="container">
 
-        <div class="section-title">
-
-            <span>Encontre sua dúvida</span>
-
-            <h2>Respostas rápidas para decisões comuns durante a pesquisa</h2>
-
-            <p>
-                Nem todas as dúvidas do pesquisador exigem uma explicação extensa.
-                Nesta página, você encontra orientações objetivas para situações
-                práticas que podem surgir durante o desenvolvimento da pesquisa.
-            </p>
+        <div class="logo">
+            Neo<span>Pesquisa</span>
 
         </div>
+ <button class="menu-toggle" aria-label="Abrir menu">
+            ☰
+        </button>
 
-        <div class="highlight-box">
+       <nav>
 
-            <h3>Como utilizar esta página?</h3>
+    <ul>
 
-            <p>
-                Localize sua dúvida, consulte a orientação e aplique-a considerando
-                as características da sua pesquisa. Quando o assunto exigir uma
-                análise mais específica, converse com seu orientador ou consulte
-                as orientações da sua instituição.
-            </p>
+        <li><a href="index.html">Início</a></li>
 
-        </div>
+        <li><a href="pesquisa.html">Pesquisa</a></li>
+
+        <li><a href="estrutura-pesquisa.html">Produção Científica</a></li>
+
+        <li><a href="referencias-citacoes-pesquisa.html">Biblioteca</a></li>
+
+        <li><a href="ferramentas-pesquisador.html">Ferramentas</a></li>
+
+        <li><a href="ia-pesquisa.html">IA Acadêmica</a></li>
+
+        <li><a href="duvidas-pesquisador.html">Dúvidas</a></li>
+
+        <li><a href="contato.html">Contato</a></li>
+
+    </ul>
+
+</nav>
 
     </div>
 
-</section>
-<section class="content-section">
+</header>
+<main>
+</main>
+  <script>
 
-    <div class="container">
+    lucide.createIcons();
+const menuToggle = document.querySelector(".menu-toggle");
+const navigation = document.querySelector("header nav");
 
-        <!-- =========================
-             ENTREVISTAS
-        ========================== -->
+menuToggle.addEventListener("click", () => {
+    navigation.classList.toggle("active");
+});
+    const faqItems = document.querySelectorAll(".faq-item");
 
-        <div class="section-title">
+    faqItems.forEach(item => {
 
-            <span>Entrevistas</span>
+        const button = item.querySelector(".faq-question");
 
-            <h2>Dúvidas frequentes sobre entrevistas de pesquisa</h2>
+        button.addEventListener("click", () => {
 
-            <p>
-                Consulte orientações rápidas para algumas decisões práticas
-                relacionadas ao planejamento e à realização de entrevistas.
-            </p>
+            faqItems.forEach(other => {
 
-        </div>
+                if(other !== item){
 
-        <div class="research-structure">
+                    other.classList.remove("active");
 
-            <details class="structure-section">
+                    other.querySelector("span").textContent = "+";
 
-                <summary class="structure-summary">
+                }
 
-                    <span class="structure-number">01</span>
+            });
 
-                    <strong>ENTREVISTA PRESENCIAL OU ON-LINE: QUAL ESCOLHER?</strong>
+            item.classList.toggle("active");
 
-                    <span class="structure-toggle">+</span>
+            const icon = item.querySelector("span");
 
-                </summary>
+            icon.textContent = item.classList.contains("active") ? "−" : "+";
 
-                <div class="structure-content">
+        });
 
-                    <div class="structure-item">
+    });
 
-                        <span>Resposta rápida</span>
+</script>
+</body>
 
-                        <strong>
-                            Ambas podem ser utilizadas. A escolha depende dos participantes,
-                            da localização, do acesso à tecnologia, da necessidade de interação
-                            presencial e das condições da pesquisa. Escolha a modalidade que
-                            permita obter as informações necessárias com qualidade e segurança.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">02</span>
-
-                    <strong>ENTREVISTA ESTRUTURADA, SEMIESTRUTURADA OU NÃO ESTRUTURADA?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            A estruturada segue perguntas previamente definidas com maior
-                            padronização. A semiestruturada utiliza um roteiro, mas permite
-                            aprofundar respostas. A não estruturada é mais aberta e flexível.
-                            A escolha deve acompanhar os objetivos e o desenho da pesquisa.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">03</span>
-
-                    <strong>QUANTAS PERGUNTAS E QUANTO TEMPO DEVE TER UMA ENTREVISTA?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Não existe um número ou duração universal. Utilize apenas as
-                            perguntas necessárias para atender aos objetivos da pesquisa
-                            e considere o nível de aprofundamento esperado e a disponibilidade
-                            dos participantes. Evite roteiros excessivamente longos.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">04</span>
-
-                    <strong>POSSO GRAVAR UMA ENTREVISTA DE PESQUISA?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            A gravação pode ser utilizada quando adequada à pesquisa,
-                            mas o participante deve ser informado e as exigências éticas,
-                            institucionais e de proteção dos dados devem ser observadas.
-                            Não grave sem a autorização necessária.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-        </div>
-
-
-        <!-- =========================
-             INSTRUMENTO DE COLETA
-        ========================== -->
-
-        <div class="section-title faq-category-title">
-
-            <span>Instrumento de coleta</span>
-
-            <h2>Dúvidas frequentes sobre a escolha e utilização dos instrumentos</h2>
-
-            <p>
-                Consulte orientações rápidas para decisões relacionadas à escolha,
-                elaboração e aplicação dos instrumentos de coleta de dados.
-            </p>
-
-        </div>
-
-        <div class="research-structure">
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">01</span>
-
-                    <strong>ENTREVISTA OU QUESTIONÁRIO: QUAL ESCOLHER?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            A entrevista é adequada quando a pesquisa necessita
-                            aprofundar respostas e explorar percepções ou experiências.
-                            O questionário favorece a coleta padronizada de informações
-                            junto a um conjunto de participantes. A escolha deve considerar
-                            os objetivos, os participantes e o tipo de dado necessário.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">02</span>
-
-                    <strong>QUESTIONÁRIO ABERTO, FECHADO OU MISTO: QUAL UTILIZAR?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Questões abertas permitem respostas livres; questões fechadas
-                            oferecem alternativas previamente definidas; e o questionário
-                            misto combina as duas possibilidades. Escolha conforme o tipo
-                            de informação que a pesquisa precisa obter.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">03</span>
-
-                    <strong>QUANTAS PERGUNTAS DEVE TER UM QUESTIONÁRIO?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Não existe um número universal. Inclua somente perguntas
-                            necessárias para produzir os dados relacionados aos objetivos
-                            da pesquisa. Considere também o tempo de resposta e evite
-                            questionários desnecessariamente longos ou repetitivos.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">04</span>
-
-                    <strong>PRECISO VALIDAR O INSTRUMENTO ANTES DE APLICÁ-LO? COMO FAZER?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Depende do instrumento e do desenho da pesquisa. Instrumentos
-                            elaborados ou adaptados pelo pesquisador podem exigir procedimentos
-                            de avaliação antes da aplicação. Conforme o caso, podem ser utilizados
-                            análise por especialistas, pré-teste, estudo piloto ou procedimentos
-                            específicos de validação. Defina o procedimento com seu orientador
-                            e registre-o na metodologia.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-        </div>
-
-
-        <!-- =========================
-             ÉTICA E PESQUISA DE CAMPO
-        ========================== -->
-
-        <div class="section-title faq-category-title">
-
-            <span>Ética e pesquisa de campo</span>
-
-            <h2>Dúvidas frequentes antes e durante a coleta de dados</h2>
-
-            <p>
-                Consulte orientações rápidas sobre cuidados éticos e situações
-                que podem surgir durante a realização da pesquisa.
-            </p>
-
-        </div>
-
-        <div class="research-structure">
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">01</span>
-
-                    <strong>MINHA PESQUISA PRECISA PASSAR PELO COMITÊ DE ÉTICA EM PESQUISA (CEP)?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Depende. Pesquisas envolvendo seres humanos, dados obtidos
-                            diretamente dos participantes ou informações identificáveis
-                            podem exigir apreciação ética. Algumas situações previstas
-                            na regulamentação são dispensadas de registro no sistema
-                            CEP/Conep, como determinadas pesquisas com informações de
-                            acesso ou domínio público e revisão exclusivamente de textos
-                            científicos. Converse com seu orientador e, em caso de dúvida,
-                            consulte o CEP da sua instituição antes de iniciar a coleta.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">02</span>
-
-                    <strong>PRECISO DO CONSENTIMENTO DOS PARTICIPANTES?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Quando aplicável, o participante deve receber informações
-                            claras sobre a pesquisa e manifestar seu consentimento de
-                            forma livre e esclarecida. A forma de registrar esse
-                            consentimento pode variar conforme a pesquisa e as exigências
-                            éticas aplicáveis. Consulte seu orientador e o CEP da instituição
-                            quando houver dúvida.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">03</span>
-
-                    <strong>O QUE FAZER SE UM PARTICIPANTE DESISTIR DA PESQUISA?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Respeite a decisão do participante. A participação em uma
-                            pesquisa deve ser voluntária e a desistência não deve gerar
-                            penalização. Verifique os procedimentos previstos no protocolo
-                            da pesquisa e, quando aplicável, as orientações do Comitê de Ética.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-        </div>
-
-    </div>
-
-</section>
-<div class="section-title">
-
-            <span>Instrumento de coleta</span>
-
-            <h2>Dúvidas frequentes sobre a escolha e utilização dos instrumentos</h2>
-
-            <p>
-                Consulte orientações rápidas para decisões relacionadas à escolha,
-                elaboração e aplicação dos instrumentos de coleta de dados.
-            </p>
-
-        </div>
-
-        <div class="research-structure">
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">01</span>
-
-                    <strong>ENTREVISTA OU QUESTIONÁRIO: QUAL ESCOLHER?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            A entrevista é adequada quando a pesquisa necessita
-                            aprofundar respostas e explorar percepções ou experiências.
-                            O questionário favorece a coleta padronizada de informações
-                            junto a um conjunto de participantes. A escolha deve considerar
-                            os objetivos, os participantes e o tipo de dado necessário.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">02</span>
-
-                    <strong>QUESTIONÁRIO ABERTO, FECHADO OU MISTO: QUAL UTILIZAR?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Questões abertas permitem respostas livres; questões fechadas
-                            oferecem alternativas previamente definidas; e o questionário
-                            misto combina as duas possibilidades. Escolha conforme o tipo
-                            de informação que a pesquisa precisa obter.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">03</span>
-
-                    <strong>QUANTAS PERGUNTAS DEVE TER UM QUESTIONÁRIO?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Não existe um número universal. Inclua somente perguntas
-                            necessárias para produzir os dados relacionados aos objetivos
-                            da pesquisa. Considere também o tempo de resposta e evite
-                            questionários desnecessariamente longos ou repetitivos.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">04</span>
-
-                    <strong>PRECISO VALIDAR O INSTRUMENTO ANTES DE APLICÁ-LO? COMO FAZER?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Depende do instrumento e do desenho da pesquisa. Instrumentos
-                            elaborados ou adaptados pelo pesquisador podem exigir procedimentos
-                            de avaliação antes da aplicação. Conforme o caso, podem ser utilizados
-                            análise por especialistas, pré-teste, estudo piloto ou procedimentos
-                            específicos de validação. Defina o procedimento com seu orientador
-                            e registre-o na metodologia.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-     </div>
-
-</section>
-<div class="section-title">
-
-            <span>Ética e pesquisa de campo</span>
-
-            <h2>Dúvidas frequentes antes e durante a coleta de dados</h2>
-
-            <p>
-                Consulte orientações rápidas sobre cuidados éticos e situações
-                que podem surgir durante a realização da pesquisa.
-            </p>
-
-        </div>
-
-        <div class="research-structure">
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">01</span>
-
-                    <strong>MINHA PESQUISA PRECISA PASSAR PELO COMITÊ DE ÉTICA EM PESQUISA (CEP)?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Depende. Pesquisas envolvendo seres humanos, dados obtidos
-                            diretamente dos participantes ou informações identificáveis
-                            podem exigir apreciação ética. Algumas situações previstas
-                            na regulamentação são dispensadas de registro no sistema
-                            CEP/Conep, como determinadas pesquisas com informações de
-                            acesso ou domínio público e revisão exclusivamente de textos
-                            científicos. Converse com seu orientador e, em caso de dúvida,
-                            consulte o CEP da sua instituição antes de iniciar a coleta.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">02</span>
-
-                    <strong>PRECISO DO CONSENTIMENTO DOS PARTICIPANTES?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Quando aplicável, o participante deve receber informações
-                            claras sobre a pesquisa e manifestar seu consentimento de
-                            forma livre e esclarecida. A forma de registrar esse
-                            consentimento pode variar conforme a pesquisa e as exigências
-                            éticas aplicáveis. Consulte seu orientador e o CEP da instituição
-                            quando houver dúvida.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-
-            <details class="structure-section">
-
-                <summary class="structure-summary">
-
-                    <span class="structure-number">03</span>
-
-                    <strong>O QUE FAZER SE UM PARTICIPANTE DESISTIR DA PESQUISA?</strong>
-
-                    <span class="structure-toggle">+</span>
-
-                </summary>
-
-                <div class="structure-content">
-
-                    <div class="structure-item">
-
-                        <span>Resposta rápida</span>
-
-                        <strong>
-                            Respeite a decisão do participante. A participação em uma
-                            pesquisa deve ser voluntária e a desistência não deve gerar
-                            penalização. Verifique os procedimentos previstos no protocolo
-                            da pesquisa e, quando aplicável, as orientações do Comitê de Ética.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </details>
-
-        </div>
-
-    </div>
-
-</section>
+</html>
