@@ -2564,6 +2564,13 @@ GUIA METODOLÓGICO
 
 }
 
+.sujeitos-amostra-learning .learning-next-content p{
+
+    line-height:1.65;
+    margin-bottom:24px;
+
+}
+
 .learning-next-buttons{
 
     display:flex;
