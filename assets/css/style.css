@@ -3237,9 +3237,9 @@ body{
     border:none;
     cursor:pointer;
 }
-/* ===== FERRAMENTAS DO PESQUISADOR ===== */
+/* ===== BOTÃO IA - FERRAMENTAS DO PESQUISADOR ===== */
 
-.ferramentas-ia-box .btn{
+.ia-tools-button{
     display:inline-block;
     margin-top:20px;
 }
