@@ -3243,3 +3243,54 @@ body{
     display:inline-block;
     margin-top:20px;
 }
+/* ===== ACESSO ÀS FONTES CIENTÍFICAS ===== */
+
+.academic-access{
+    margin:70px auto 50px;
+}
+
+.academic-access .section-title{
+    margin-bottom:35px;
+}
+
+.academic-access .section-title h3{
+    font-size:1.8rem;
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.academic-access-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.academic-access-card{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:24px;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    text-decoration:none;
+    color:inherit;
+    transition:.2s ease;
+}
+
+.academic-access-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+.academic-access-card strong{
+    color:var(--primary);
+    font-size:1rem;
+}
+
+.academic-access-card span{
+    font-size:.95rem;
+    line-height:1.6;
+}
