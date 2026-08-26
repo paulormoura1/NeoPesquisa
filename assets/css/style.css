@@ -1842,50 +1842,69 @@ CTA
 }
 
 
-/* Estações do lado esquerdo:
-   painel abre para cima e para a direita */
+/* =====================================================
+   POSICIONAMENTO DAS JANELAS
+===================================================== */
+
+
+/* ESTAÇÕES 01, 04 e 05
+   Lado esquerdo do mapa → abrem para o centro */
 
 .station-01 .map-station-panel,
 .station-04 .map-station-panel,
-.station-05 .map-station-panel,
-.station-08 .map-station-panel{
+.station-05 .map-station-panel{
 
-    bottom:145px;
-    left:0;
-    right:auto;
+    left:205px;
+    top:50%;
 
-    transform:translateY(8px);
+    transform:translateY(-50%) translateX(-8px);
 }
 
 
-/* Estações do lado direito:
-   painel abre para cima e para a esquerda */
+/* ESTAÇÕES 02 e 03
+   Lado direito do mapa → abrem para o centro */
 
 .station-02 .map-station-panel,
-.station-03 .map-station-panel,
+.station-03 .map-station-panel{
+
+    right:205px;
+    top:50%;
+
+    transform:translateY(-50%) translateX(8px);
+}
+
+
+/* ESTAÇÃO 06
+   Mantém abertura atual para cima */
+
 .station-06 .map-station-panel{
 
     bottom:145px;
     right:0;
-    left:auto;
 
     transform:translateY(8px);
 }
 
 
-/* Estação 07:
-   painel abre para baixo e para a esquerda */
+/* ESTAÇÕES 07 e 08
+   Última linha → abrem para baixo */
 
 .station-07 .map-station-panel{
 
     top:145px;
     right:0;
-    left:auto;
-    bottom:auto;
 
     transform:translateY(-8px);
 }
 
+.station-08 .map-station-panel{
+
+    top:145px;
+    left:0;
+
+    transform:translateY(-8px);
+}
+/* Abertura */
 .map-station:hover .map-station-panel{
     opacity:1;
     visibility:visible;
