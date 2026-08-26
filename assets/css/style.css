@@ -1656,14 +1656,13 @@ CTA
     content:"";
     position:absolute;
 
-    right:145px;
+    right:175px;
     top:48px;
 
-    width:500px;
+    width:650px;
     height:18px;
 
     background:#64748B;
-
     border-radius:10px;
 
     pointer-events:none;
@@ -1674,57 +1673,14 @@ CTA
     content:"";
     position:absolute;
 
-   right:145px;
+    right:175px;
     top:56px;
 
-    width:500px;
+    width:650px;
     height:2px;
 
     background:repeating-linear-gradient(
         to right,
-        #FFFFFF 0 12px,
-        transparent 12px 24px
-    );
-
-    pointer-events:none;
-    z-index:-1;
-}
-
-
-/* =====================================================
-   02 → 03
-===================================================== */
-
-.station-03::before{
-    content:"";
-    position:absolute;
-
-    right:78px;
-    bottom:115px;
-
-    width:18px;
-    height:320px;
-
-    background:#64748B;
-
-    border-radius:10px;
-
-    pointer-events:none;
-    z-index:-2;
-}
-
-.station-03::after{
-    content:"";
-    position:absolute;
-
-    right:86px;
-    bottom:115px;
-
-    width:2px;
-    height:320px;
-
-    background:repeating-linear-gradient(
-        to bottom,
         #FFFFFF 0 12px,
         transparent 12px 24px
     );
@@ -1745,11 +1701,10 @@ CTA
     left:175px;
     top:48px;
 
-    width:500px;
+    width:650px;
     height:18px;
 
     background:#64748B;
-
     border-radius:10px;
 
     pointer-events:none;
@@ -1763,54 +1718,11 @@ CTA
     left:175px;
     top:56px;
 
-    width:500px;
+    width:650px;
     height:2px;
 
     background:repeating-linear-gradient(
         to right,
-        #FFFFFF 0 12px,
-        transparent 12px 24px
-    );
-
-    pointer-events:none;
-    z-index:-1;
-}
-
-
-/* =====================================================
-   04 → 05
-===================================================== */
-
-.station-05::before{
-    content:"";
-    position:absolute;
-
-    left:78px;
-    bottom:115px;
-
-    width:18px;
-    height:320px;
-
-    background:#64748B;
-
-    border-radius:10px;
-
-    pointer-events:none;
-    z-index:-2;
-}
-
-.station-05::after{
-    content:"";
-    position:absolute;
-
-    left:86px;
-    bottom:115px;
-
-    width:2px;
-    height:320px;
-
-    background:repeating-linear-gradient(
-        to bottom,
         #FFFFFF 0 12px,
         transparent 12px 24px
     );
@@ -1831,11 +1743,10 @@ CTA
     right:175px;
     top:48px;
 
-    width:500px;
+    width:650px;
     height:18px;
 
     background:#64748B;
-
     border-radius:10px;
 
     pointer-events:none;
@@ -1849,54 +1760,11 @@ CTA
     right:175px;
     top:56px;
 
-    width:500px;
+    width:650px;
     height:2px;
 
     background:repeating-linear-gradient(
         to right,
-        #FFFFFF 0 12px,
-        transparent 12px 24px
-    );
-
-    pointer-events:none;
-    z-index:-1;
-}
-
-
-/* =====================================================
-   06 → 07
-===================================================== */
-
-.station-07::before{
-    content:"";
-    position:absolute;
-
-    right:78px;
-    bottom:115px;
-
-    width:18px;
-    height:320px;
-
-    background:#64748B;
-
-    border-radius:10px;
-
-    pointer-events:none;
-    z-index:-2;
-}
-
-.station-07::after{
-    content:"";
-    position:absolute;
-
-    right:86px;
-    bottom:115px;
-
-    width:2px;
-    height:320px;
-
-    background:repeating-linear-gradient(
-        to bottom,
         #FFFFFF 0 12px,
         transparent 12px 24px
     );
@@ -1917,11 +1785,10 @@ CTA
     left:175px;
     top:48px;
 
-    width:500px;
+    width:650px;
     height:18px;
 
     background:#64748B;
-
     border-radius:10px;
 
     pointer-events:none;
@@ -1935,7 +1802,7 @@ CTA
     left:175px;
     top:56px;
 
-    width:500px;
+    width:650px;
     height:2px;
 
     background:repeating-linear-gradient(
@@ -1947,7 +1814,6 @@ CTA
     pointer-events:none;
     z-index:-1;
 }
-
 /* =====================================================
    MARCADOR DA ESTAÇÃO
 ===================================================== */
