@@ -1456,14 +1456,17 @@ CTA
     position:relative;
     width:100%;
     max-width:1200px;
-    min-height:800px;
+    min-height:2300px;
     margin:55px auto 0;
     padding:60px;
     overflow:visible;
 
     background:
-        radial-gradient(circle at 15% 25%, rgba(79,70,229,.08), transparent 24%),
-        radial-gradient(circle at 80% 70%, rgba(14,165,233,.08), transparent 25%),
+        radial-gradient(circle at 18% 12%, rgba(79,70,229,.08), transparent 18%),
+        radial-gradient(circle at 82% 30%, rgba(14,165,233,.08), transparent 18%),
+        radial-gradient(circle at 20% 52%, rgba(79,70,229,.06), transparent 18%),
+        radial-gradient(circle at 80% 72%, rgba(14,165,233,.06), transparent 18%),
+        radial-gradient(circle at 45% 92%, rgba(79,70,229,.05), transparent 18%),
         #FFFFFF;
 
     border:1px solid #E5E7EB;
@@ -1471,36 +1474,19 @@ CTA
 }
 
 
-/* Caminho inicial */
-
-.research-map-area::before{
-    content:"";
-    position:absolute;
-
-    left:125px;
-    top:175px;
-
-    width:115px;
-    height:150px;
-
-    border-left:4px dashed #CBD5E1;
-    border-bottom:4px dashed #CBD5E1;
-
-    border-radius:0 0 0 70px;
-
-    pointer-events:none;
-}
-/* Você está aqui */
+/* =====================================================
+   INÍCIO DA JORNADA
+===================================================== */
 
 .map-start{
     position:absolute;
-    left:55px;
+    left:70px;
     top:70px;
 
     width:190px;
 
     text-align:center;
-    z-index:2;
+    z-index:4;
 }
 
 .map-start > span{
@@ -1547,48 +1533,229 @@ CTA
 }
 
 
-/* Estação */
+/* =====================================================
+   ESTAÇÕES
+===================================================== */
 
 .map-station{
     position:absolute;
-    z-index:3;
+    z-index:5;
 }
 
+
+/* Linha 1 */
+
 .station-01{
-    left:150px;
+    left:110px;
     top:300px;
 }
 
 .station-02{
-    right:260px;
-    top:520px;
+    right:170px;
+    top:300px;
 }
 
 
-/* Continuação do caminho até a Estação 02 */
+/* Linha 2 */
+
+.station-03{
+    right:110px;
+    top:730px;
+}
+
+.station-04{
+    left:170px;
+    top:730px;
+}
+
+
+/* Linha 3 */
+
+.station-05{
+    left:110px;
+    top:1160px;
+}
+
+.station-06{
+    right:170px;
+    top:1160px;
+}
+
+
+/* Linha 4 */
+
+.station-07{
+    right:110px;
+    top:1590px;
+}
+
+.station-08{
+    left:170px;
+    top:1590px;
+}
+
+
+/* =====================================================
+   CAMINHO DA JORNADA
+===================================================== */
+
+/* Início → 01 */
+
+.research-map-area::before{
+    content:"";
+    position:absolute;
+
+    left:165px;
+    top:205px;
+
+    width:40px;
+    height:100px;
+
+    border-left:4px dashed #CBD5E1;
+
+    pointer-events:none;
+}
+
+
+/* 01 → 02 */
 
 .station-02::before{
     content:"";
     position:absolute;
 
-    right:145px;
-    top:-105px;
+    right:175px;
+    top:55px;
 
-    width:430px;
-    height:190px;
+    width:500px;
 
-    border-bottom:4px dashed #CBD5E1;
-    border-right:4px dashed #CBD5E1;
+    border-top:4px dashed #CBD5E1;
 
-    border-radius:0 0 90px 0;
-
-    transform:rotate(8deg);
-
-    z-index:-1;
     pointer-events:none;
+    z-index:-1;
 }
 
-/* Marcador da estação */
+
+/* 02 → 03 */
+
+.station-03::before{
+    content:"";
+    position:absolute;
+
+    right:85px;
+    bottom:115px;
+
+    width:95px;
+    height:320px;
+
+    border-right:4px dashed #CBD5E1;
+
+    border-radius:0 70px 70px 0;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* 03 → 04 */
+
+.station-04::before{
+    content:"";
+    position:absolute;
+
+    left:175px;
+    top:55px;
+
+    width:500px;
+
+    border-top:4px dashed #CBD5E1;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* 04 → 05 */
+
+.station-05::before{
+    content:"";
+    position:absolute;
+
+    left:85px;
+    bottom:115px;
+
+    width:95px;
+    height:320px;
+
+    border-left:4px dashed #CBD5E1;
+
+    border-radius:70px 0 0 70px;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* 05 → 06 */
+
+.station-06::before{
+    content:"";
+    position:absolute;
+
+    right:175px;
+    top:55px;
+
+    width:500px;
+
+    border-top:4px dashed #CBD5E1;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* 06 → 07 */
+
+.station-07::before{
+    content:"";
+    position:absolute;
+
+    right:85px;
+    bottom:115px;
+
+    width:95px;
+    height:320px;
+
+    border-right:4px dashed #CBD5E1;
+
+    border-radius:0 70px 70px 0;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* 07 → 08 */
+
+.station-08::before{
+    content:"";
+    position:absolute;
+
+    left:175px;
+    top:55px;
+
+    width:500px;
+
+    border-top:4px dashed #CBD5E1;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+
+/* =====================================================
+   MARCADOR DA ESTAÇÃO
+===================================================== */
+
 .map-station-marker{
     display:flex;
     flex-direction:column;
@@ -1646,13 +1813,12 @@ CTA
 }
 
 
-/* Janela da estação */
+/* =====================================================
+   JANELAS DAS ESTAÇÕES
+===================================================== */
 
 .map-station-panel{
     position:absolute;
-
-    left:205px;
-    top:-70px;
 
     width:360px;
 
@@ -1668,18 +1834,54 @@ CTA
     opacity:0;
     visibility:hidden;
 
-    transform:translateY(8px);
-
     transition:opacity .2s ease,
                transform .2s ease,
                visibility .2s ease;
+
+    z-index:20;
 }
+
+
+/* Estações que abrem para baixo */
+
+.station-01 .map-station-panel,
+.station-03 .map-station-panel,
+.station-05 .map-station-panel,
+.station-07 .map-station-panel{
+
+    top:145px;
+    left:0;
+
+    transform:translateY(-8px);
+}
+
+
+/* Estações que abrem para cima */
+
+.station-02 .map-station-panel,
+.station-04 .map-station-panel,
+.station-06 .map-station-panel,
+.station-08 .map-station-panel{
+
+    bottom:145px;
+    right:0;
+
+    transform:translateY(8px);
+}
+
+
+/* Abertura */
 
 .map-station:hover .map-station-panel{
     opacity:1;
     visibility:visible;
     transform:translateY(0);
 }
+
+
+/* =====================================================
+   CONTEÚDO DAS JANELAS
+===================================================== */
 
 .station-panel-tag{
     display:inline-block;
@@ -1709,7 +1911,9 @@ CTA
 }
 
 
-/* Links internos da estação */
+/* =====================================================
+   LINKS DAS ESTAÇÕES
+===================================================== */
 
 .station-links{
     display:flex;
@@ -1740,6 +1944,68 @@ CTA
 .station-links small{
     font-size:.75rem;
     font-weight:500;
+}
+
+
+/* =====================================================
+   DESTINO FINAL
+===================================================== */
+
+.map-finish{
+    position:absolute;
+
+    left:50%;
+    bottom:100px;
+
+    width:220px;
+
+    transform:translateX(-50%);
+
+    text-align:center;
+    z-index:5;
+}
+
+.map-finish > span{
+    display:inline-block;
+
+    margin-bottom:12px;
+    padding:7px 14px;
+
+    background:#EEF2FF;
+    color:var(--secondary);
+
+    border-radius:30px;
+
+    font-size:.85rem;
+    font-weight:700;
+}
+
+.map-finish-marker{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:68px;
+    height:68px;
+
+    margin:0 auto 12px;
+
+    background:var(--primary);
+    color:#FFFFFF;
+
+    border-radius:50%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.map-finish-marker svg{
+    width:28px;
+    height:28px;
+}
+
+.map-finish strong{
+    display:block;
+    color:var(--primary);
 }
 /*==================================================
 CTA RESPONSIVO
