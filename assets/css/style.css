@@ -2456,7 +2456,142 @@ RESPONSIVO
         width:100%;
         padding:14px 0;
     }
+/* ==========================================
+MAPA DA PESQUISA - CELULAR
+========================================== */
 
+.research-map{
+    padding:60px 0;
+}
+
+.research-map-area{
+    width:100%;
+    max-width:100%;
+    min-height:auto;
+
+    margin:35px auto 0;
+    padding:35px 20px 45px;
+
+    overflow:visible;
+}
+
+
+/* Início da jornada */
+
+.map-start{
+    position:relative;
+
+    left:auto;
+    top:auto;
+
+    width:100%;
+    margin:0 auto 55px;
+
+    text-align:center;
+}
+
+
+/* Remove a trilha do desktop */
+
+.research-map-area::before,
+.station-02::before,
+.station-03::before,
+.station-04::before,
+.station-05::before,
+.station-06::before,
+.station-07::before,
+.station-08::before{
+    display:none;
+}
+
+
+/* Estações em sequência vertical */
+
+.map-station,
+.station-01,
+.station-02,
+.station-03,
+.station-04,
+.station-05,
+.station-06,
+.station-07,
+.station-08{
+    position:relative;
+
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+
+    width:100%;
+
+    margin:0 auto 55px;
+}
+
+
+/* Marcador */
+
+.map-station-marker{
+    width:100%;
+    max-width:280px;
+
+    min-height:110px;
+
+    margin:0 auto;
+}
+
+
+/* Janela */
+
+.map-station-panel,
+.station-01 .map-station-panel,
+.station-02 .map-station-panel,
+.station-03 .map-station-panel,
+.station-04 .map-station-panel,
+.station-05 .map-station-panel,
+.station-06 .map-station-panel,
+.station-07 .map-station-panel,
+.station-08 .map-station-panel{
+
+    position:relative;
+
+    width:100%;
+    max-width:100%;
+
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+
+    margin:18px auto 0;
+
+    transform:none;
+}
+
+
+/* Abertura da janela */
+
+.map-station:hover .map-station-panel{
+    transform:none;
+}
+
+
+/* Destino final */
+
+.map-finish{
+    position:relative;
+
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+
+    width:100%;
+
+    margin:20px auto 0;
+
+    transform:none;
+}
 }
 
 @media (max-width:576px){
