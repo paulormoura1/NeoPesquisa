@@ -1688,7 +1688,46 @@ CTA
     pointer-events:none;
     z-index:-1;
 }
+/* =====================================================
+   02 → 03
+===================================================== */
 
+.station-03::before{
+    content:"";
+    position:absolute;
+
+    right:67px;
+    bottom:110px;
+
+    width:18px;
+    height:320px;
+
+    background:#64748B;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-03::after{
+    content:"";
+    position:absolute;
+
+    right:75px;
+    bottom:110px;
+
+    width:2px;
+    height:320px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
+
+    pointer-events:none;
+    z-index:-1;
+}
 
 /* =====================================================
    03 → 04
