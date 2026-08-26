@@ -1697,10 +1697,10 @@ CTA
     position:absolute;
 
     right:70px;
-    bottom:110px;
+    bottom:115px;
 
     width:18px;
-    height:320px;
+    height:310px;
 
     background:#64748B;
     border-radius:10px;
@@ -1714,10 +1714,10 @@ CTA
     position:absolute;
 
     right:78px;
-    bottom:110px;
+    bottom:115px;
 
     width:2px;
-    height:320px;
+    height:310px;
 
     background:repeating-linear-gradient(
         to bottom,
