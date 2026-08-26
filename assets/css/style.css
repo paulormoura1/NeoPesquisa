@@ -1844,8 +1844,6 @@ CTA
 
 /* Estações que abrem para baixo */
 
-.station-01 .map-station-panel,
-.station-03 .map-station-panel,
 .station-05 .map-station-panel,
 .station-07 .map-station-panel{
 
@@ -1853,6 +1851,18 @@ CTA
     left:0;
 
     transform:translateY(-8px);
+}
+
+
+/* Estações 01 e 03 abrem para cima */
+
+.station-01 .map-station-panel,
+.station-03 .map-station-panel{
+
+    bottom:145px;
+    left:0;
+
+    transform:translateY(8px);
 }
 
 
