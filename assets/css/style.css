@@ -1842,45 +1842,49 @@ CTA
 }
 
 
-/* Estações que abrem para baixo */
-
-.station-05 .map-station-panel,
-.station-07 .map-station-panel{
-
-    top:145px;
-    left:0;
-
-    transform:translateY(-8px);
-}
-
-
-/* Estações 01 e 03 abrem para cima */
+/* Estações do lado esquerdo:
+   painel abre para cima e para a direita */
 
 .station-01 .map-station-panel,
-.station-03 .map-station-panel{
-
-    bottom:145px;
-    left:0;
-
-    transform:translateY(8px);
-}
-
-
-/* Estações que abrem para cima */
-
-.station-02 .map-station-panel,
 .station-04 .map-station-panel,
-.station-06 .map-station-panel,
+.station-05 .map-station-panel,
 .station-08 .map-station-panel{
 
     bottom:145px;
-    right:0;
+    left:0;
+    right:auto;
 
     transform:translateY(8px);
 }
 
 
-/* Abertura */
+/* Estações do lado direito:
+   painel abre para cima e para a esquerda */
+
+.station-02 .map-station-panel,
+.station-03 .map-station-panel,
+.station-06 .map-station-panel{
+
+    bottom:145px;
+    right:0;
+    left:auto;
+
+    transform:translateY(8px);
+}
+
+
+/* Estação 07:
+   painel abre para baixo e para a esquerda */
+
+.station-07 .map-station-panel{
+
+    top:145px;
+    right:0;
+    left:auto;
+    bottom:auto;
+
+    transform:translateY(-8px);
+}
 
 .map-station:hover .map-station-panel{
     opacity:1;
