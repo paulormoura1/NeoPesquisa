@@ -1596,161 +1596,357 @@ CTA
 
 
 /* =====================================================
-   CAMINHO DA JORNADA
+   CAMINHO DA JORNADA - ESTRADA
 ===================================================== */
 
-/* Início → 01 */
+
+/* =====================================================
+   INÍCIO → 01
+===================================================== */
+
+/* Corpo da estrada */
 
 .research-map-area::before{
     content:"";
     position:absolute;
 
-    left:165px;
+    left:158px;
     top:205px;
 
-    width:40px;
+    width:18px;
     height:100px;
 
-    border-left:4px dashed #CBD5E1;
+    background:#64748B;
+
+    border-radius:10px;
 
     pointer-events:none;
+    z-index:1;
 }
 
 
-/* 01 → 02 */
+/* Faixa central */
+
+.research-map-area::after{
+    content:"";
+    position:absolute;
+
+    left:166px;
+    top:205px;
+
+    width:2px;
+    height:100px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 8px,
+        transparent 8px 16px
+    );
+
+    pointer-events:none;
+    z-index:2;
+}
+
+
+/* =====================================================
+   01 → 02
+===================================================== */
 
 .station-02::before{
     content:"";
     position:absolute;
 
     right:175px;
-    top:55px;
+    top:48px;
 
     width:500px;
+    height:18px;
 
-    border-top:4px dashed #CBD5E1;
+    background:#64748B;
+
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-02::after{
+    content:"";
+    position:absolute;
+
+    right:175px;
+    top:56px;
+
+    width:500px;
+    height:2px;
+
+    background:repeating-linear-gradient(
+        to right,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 02 → 03 */
+/* =====================================================
+   02 → 03
+===================================================== */
 
 .station-03::before{
     content:"";
     position:absolute;
 
-    right:85px;
+    right:78px;
     bottom:115px;
 
-    width:95px;
+    width:18px;
     height:320px;
 
-    border-right:4px dashed #CBD5E1;
+    background:#64748B;
 
-    border-radius:0 70px 70px 0;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-03::after{
+    content:"";
+    position:absolute;
+
+    right:86px;
+    bottom:115px;
+
+    width:2px;
+    height:320px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 03 → 04 */
+/* =====================================================
+   03 → 04
+===================================================== */
 
 .station-04::before{
     content:"";
     position:absolute;
 
     left:175px;
-    top:55px;
+    top:48px;
 
     width:500px;
+    height:18px;
 
-    border-top:4px dashed #CBD5E1;
+    background:#64748B;
+
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-04::after{
+    content:"";
+    position:absolute;
+
+    left:175px;
+    top:56px;
+
+    width:500px;
+    height:2px;
+
+    background:repeating-linear-gradient(
+        to right,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 04 → 05 */
+/* =====================================================
+   04 → 05
+===================================================== */
 
 .station-05::before{
     content:"";
     position:absolute;
 
-    left:85px;
+    left:78px;
     bottom:115px;
 
-    width:95px;
+    width:18px;
     height:320px;
 
-    border-left:4px dashed #CBD5E1;
+    background:#64748B;
 
-    border-radius:70px 0 0 70px;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-05::after{
+    content:"";
+    position:absolute;
+
+    left:86px;
+    bottom:115px;
+
+    width:2px;
+    height:320px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 05 → 06 */
+/* =====================================================
+   05 → 06
+===================================================== */
 
 .station-06::before{
     content:"";
     position:absolute;
 
     right:175px;
-    top:55px;
+    top:48px;
 
     width:500px;
+    height:18px;
 
-    border-top:4px dashed #CBD5E1;
+    background:#64748B;
+
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-06::after{
+    content:"";
+    position:absolute;
+
+    right:175px;
+    top:56px;
+
+    width:500px;
+    height:2px;
+
+    background:repeating-linear-gradient(
+        to right,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 06 → 07 */
+/* =====================================================
+   06 → 07
+===================================================== */
 
 .station-07::before{
     content:"";
     position:absolute;
 
-    right:85px;
+    right:78px;
     bottom:115px;
 
-    width:95px;
+    width:18px;
     height:320px;
 
-    border-right:4px dashed #CBD5E1;
+    background:#64748B;
 
-    border-radius:0 70px 70px 0;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-07::after{
+    content:"";
+    position:absolute;
+
+    right:86px;
+    bottom:115px;
+
+    width:2px;
+    height:320px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
 
 
-/* 07 → 08 */
+/* =====================================================
+   07 → 08
+===================================================== */
 
 .station-08::before{
     content:"";
     position:absolute;
 
     left:175px;
-    top:55px;
+    top:48px;
 
     width:500px;
+    height:18px;
 
-    border-top:4px dashed #CBD5E1;
+    background:#64748B;
+
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-08::after{
+    content:"";
+    position:absolute;
+
+    left:175px;
+    top:56px;
+
+    width:500px;
+    height:2px;
+
+    background:repeating-linear-gradient(
+        to right,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
 
     pointer-events:none;
     z-index:-1;
 }
-
 
 /* =====================================================
    MARCADOR DA ESTAÇÃO
@@ -2491,16 +2687,31 @@ MAPA DA PESQUISA - CELULAR
 }
 
 
-/* Remove a trilha do desktop */
+/* Remove a estrada do desktop */
 
 .research-map-area::before,
+.research-map-area::after,
+
 .station-02::before,
+.station-02::after,
+
 .station-03::before,
+.station-03::after,
+
 .station-04::before,
+.station-04::after,
+
 .station-05::before,
+.station-05::after,
+
 .station-06::before,
+.station-06::after,
+
 .station-07::before,
-.station-08::before{
+.station-07::after,
+
+.station-08::before,
+.station-08::after{
     display:none;
 }
 
