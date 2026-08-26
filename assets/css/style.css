@@ -1441,6 +1441,282 @@ CTA
 
     padding-top:12px;
 }
+
+
+/* =====================================================
+   MAPA DA PESQUISA
+===================================================== */
+
+.research-map{
+    padding:90px 0;
+    background:#F8FAFC;
+}
+
+.research-map-area{
+    position:relative;
+    max-width:1100px;
+    min-height:650px;
+    margin:55px auto 0;
+    padding:60px;
+    overflow:hidden;
+
+    background:
+        radial-gradient(circle at 15% 25%, rgba(79,70,229,.08), transparent 24%),
+        radial-gradient(circle at 80% 70%, rgba(14,165,233,.08), transparent 25%),
+        #FFFFFF;
+
+    border:1px solid #E5E7EB;
+    border-radius:28px;
+}
+
+
+/* Caminho inicial */
+
+.research-map-area::before{
+    content:"";
+    position:absolute;
+
+    left:155px;
+    top:185px;
+
+    width:430px;
+    height:230px;
+
+    border-bottom:4px dashed #CBD5E1;
+    border-right:4px dashed #CBD5E1;
+
+    border-radius:0 0 90px 0;
+
+    transform:rotate(-8deg);
+
+    pointer-events:none;
+}
+
+
+/* Você está aqui */
+
+.map-start{
+    position:absolute;
+    left:55px;
+    top:70px;
+
+    width:190px;
+
+    text-align:center;
+    z-index:2;
+}
+
+.map-start > span{
+    display:inline-block;
+
+    margin-bottom:12px;
+    padding:7px 14px;
+
+    background:#EEF2FF;
+    color:var(--secondary);
+
+    border-radius:30px;
+
+    font-size:.85rem;
+    font-weight:700;
+}
+
+.map-start-marker{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:64px;
+    height:64px;
+
+    margin:0 auto 12px;
+
+    background:var(--primary);
+    color:#FFFFFF;
+
+    border-radius:50%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.map-start-marker svg{
+    width:27px;
+    height:27px;
+}
+
+.map-start strong{
+    display:block;
+    color:var(--primary);
+}
+
+
+/* Estação */
+
+.map-station{
+    position:absolute;
+    z-index:3;
+}
+
+.station-01{
+    left:470px;
+    top:300px;
+}
+
+
+/* Marcador da estação */
+
+.map-station-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    width:180px;
+    min-height:120px;
+
+    padding:18px;
+
+    background:var(--primary);
+    color:#FFFFFF;
+
+    border:0;
+    border-radius:22px;
+
+    cursor:pointer;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.14);
+
+    transition:transform .2s ease,
+               box-shadow .2s ease;
+}
+
+.map-station-marker:hover{
+    transform:translateY(-5px);
+    box-shadow:0 18px 36px rgba(0,0,0,.18);
+}
+
+.station-number{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:40px;
+    height:40px;
+
+    margin-bottom:10px;
+
+    background:#FFFFFF;
+    color:var(--primary);
+
+    border-radius:50%;
+
+    font-size:.9rem;
+    font-weight:800;
+}
+
+.station-name{
+    font-size:1rem;
+    font-weight:700;
+    line-height:1.35;
+    text-align:center;
+}
+
+
+/* Janela da estação */
+
+.map-station-panel{
+    position:absolute;
+
+    left:205px;
+    top:-70px;
+
+    width:360px;
+
+    padding:28px;
+
+    background:#FFFFFF;
+
+    border:1px solid #E5E7EB;
+    border-radius:18px;
+
+    box-shadow:0 18px 45px rgba(15,23,42,.14);
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(8px);
+
+    transition:opacity .2s ease,
+               transform .2s ease,
+               visibility .2s ease;
+}
+
+.map-station:hover .map-station-panel{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+.station-panel-tag{
+    display:inline-block;
+
+    margin-bottom:12px;
+    padding:6px 12px;
+
+    background:#EEF2FF;
+    color:var(--secondary);
+
+    border-radius:20px;
+
+    font-size:.8rem;
+    font-weight:700;
+}
+
+.map-station-panel h3{
+    margin-bottom:12px;
+    color:var(--primary);
+}
+
+.map-station-panel p{
+    margin-bottom:20px;
+
+    font-size:.95rem;
+    line-height:1.65;
+}
+
+
+/* Links internos da estação */
+
+.station-links{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.station-links a{
+    display:block;
+
+    padding:9px 12px;
+
+    background:#F8FAFC;
+    color:var(--primary);
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-size:.9rem;
+    font-weight:600;
+}
+
+.station-links a:hover{
+    background:#EEF2FF;
+}
+
+.station-links small{
+    font-size:.75rem;
+    font-weight:500;
+}
 /*==================================================
 CTA RESPONSIVO
 ==================================================*/
