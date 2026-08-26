@@ -1769,7 +1769,46 @@ CTA
     pointer-events:none;
     z-index:-1;
 }
+/* =====================================================
+   04 → 05
+===================================================== */
 
+.station-05::before{
+    content:"";
+    position:absolute;
+
+    left:70px;
+    bottom:125px;
+
+    width:18px;
+    height:290px;
+
+    background:#64748B;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-05::after{
+    content:"";
+    position:absolute;
+
+    left:78px;
+    bottom:125px;
+
+    width:2px;
+    height:290px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
+
+    pointer-events:none;
+    z-index:-1;
+}
 
 /* =====================================================
    05 → 06
@@ -1811,7 +1850,46 @@ CTA
     pointer-events:none;
     z-index:-1;
 }
+/* =====================================================
+   06 → 07
+===================================================== */
 
+.station-07::before{
+    content:"";
+    position:absolute;
+
+    right:70px;
+    bottom:125px;
+
+    width:18px;
+    height:290px;
+
+    background:#64748B;
+    border-radius:10px;
+
+    pointer-events:none;
+    z-index:-2;
+}
+
+.station-07::after{
+    content:"";
+    position:absolute;
+
+    right:78px;
+    bottom:125px;
+
+    width:2px;
+    height:290px;
+
+    background:repeating-linear-gradient(
+        to bottom,
+        #FFFFFF 0 12px,
+        transparent 12px 24px
+    );
+
+    pointer-events:none;
+    z-index:-1;
+}
 
 /* =====================================================
    07 → 08
