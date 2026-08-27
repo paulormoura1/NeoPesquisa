@@ -1489,10 +1489,10 @@ CTA
     height:auto;
 }
 
-journey-illustration-01{
-    width:180px;
-    left:150px;
-    top:205px;
+.journey-illustration-01{
+    width:155px;
+    left:245px;
+    top:185px;
 }
 
 /* =====================================================
