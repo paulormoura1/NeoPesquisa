@@ -1473,7 +1473,27 @@ CTA
     border:1px solid #E5E7EB;
     border-radius:28px;
 }
+/* =====================================================
+   ILUSTRAÇÕES DA JORNADA
+===================================================== */
 
+.journey-illustration{
+    position:absolute;
+    z-index:1;
+    pointer-events:none;
+}
+
+.journey-illustration img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.journey-illustration-01{
+    width:300px;
+    left:390px;
+    top:300px;
+}
 
 /* =====================================================
    INÍCIO DA JORNADA
