@@ -1461,14 +1461,14 @@ CTA
     padding:60px;
     overflow:visible;
 
-    background:
-        radial-gradient(circle at 18% 12%, rgba(79,70,229,.08), transparent 18%),
-        radial-gradient(circle at 82% 30%, rgba(14,165,233,.08), transparent 18%),
-        radial-gradient(circle at 20% 52%, rgba(79,70,229,.06), transparent 18%),
-        radial-gradient(circle at 80% 72%, rgba(14,165,233,.06), transparent 18%),
-        radial-gradient(circle at 45% 92%, rgba(79,70,229,.05), transparent 18%),
-        #FFFFFF;
-
+  background:
+    linear-gradient(
+        180deg,
+        #EAF4F8 0%,
+        #F1F6EC 32%,
+        #EEF4E8 68%,
+        #E7F0E2 100%
+    );
     border:1px solid #E5E7EB;
     border-radius:28px;
 }
