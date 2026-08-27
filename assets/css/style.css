@@ -1461,13 +1461,13 @@ CTA
     padding:60px;
     overflow:visible;
 
-  background:
+ background:
     linear-gradient(
         180deg,
-        #EAF4F8 0%,
-        #F1F6EC 32%,
-        #EEF4E8 68%,
-        #E7F0E2 100%
+        #DDEFF7 0%,
+        #E8F4F7 28%,
+        #F1F6EF 58%,
+        #E7F1DF 100%
     );
     border:1px solid #E5E7EB;
     border-radius:28px;
