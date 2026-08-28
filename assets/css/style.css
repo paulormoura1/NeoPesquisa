@@ -2781,7 +2781,11 @@ MAPA DA PESQUISA - CELULAR
 
     margin:0 auto 55px;
 }
+/* Espaço adicional antes da Estação 02 */
 
+.station-02{
+    margin-top:180px;
+}
 
 /* Marcador */
 
