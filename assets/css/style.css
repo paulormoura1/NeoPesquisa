@@ -2120,7 +2120,7 @@ CTA
 
 .station-07 .map-station-panel{
 
-    top:0;
+   top:115px;
     right:190px;
 
     transform:translateX(8px);
