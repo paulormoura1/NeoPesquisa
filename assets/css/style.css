@@ -2867,6 +2867,16 @@ MAPA DA PESQUISA - CELULAR
 
     transform:translateX(-50%);
 }
+  .journey-illustration-03{
+    position:absolute;
+    width:180px;
+
+    left:50%;
+    right:auto;
+    top:1600px;
+
+    transform:translateX(-50%);
+}
 /* Destino final */
 
 .map-finish{
