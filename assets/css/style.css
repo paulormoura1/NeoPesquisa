@@ -2099,16 +2099,16 @@ CTA
 
 
 /* ESTAÇÃO 06
-   Mantém abertura atual para cima */
+   Abre para o centro do mapa */
 
 .station-06 .map-station-panel{
 
-    bottom:145px;
-    right:0;
+    top:50%;
+    right:190px;
+    bottom:auto;
 
-    transform:translateY(8px);
+    transform:translateY(-50%);
 }
-
 
 /* ESTAÇÕES 07 e 08
    Última linha → abrem para baixo */
