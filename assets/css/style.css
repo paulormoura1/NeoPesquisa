@@ -2115,15 +2115,15 @@ CTA
     transform:translateY(-50%);
 }
 
-/* ESTAÇÕES 07 e 08
-   Última linha → abrem para baixo */
+/* ESTAÇÃO 07 e 8
+   Abre lateralmente para o centro do mapa */
 
 .station-07 .map-station-panel{
 
-    top:145px;
-    right:0;
+    top:0;
+    right:190px;
 
-    transform:translateY(-8px);
+    transform:translateX(8px);
 }
 
 .station-08 .map-station-panel{
