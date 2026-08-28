@@ -1,4 +1,4 @@
-  /* =====================================================
+ /* =====================================================
    NeoPesquisa
    style.css
    Versão 0.3
@@ -2874,6 +2874,16 @@ MAPA DA PESQUISA - CELULAR
     left:50%;
     right:auto;
     top:1600px;
+
+    transform:translateX(-50%);
+}
+  .journey-illustration-04{
+    position:absolute;
+    width:200px;
+
+    left:50%;
+    right:auto;
+    top:2050px;
 
     transform:translateX(-50%);
 }
