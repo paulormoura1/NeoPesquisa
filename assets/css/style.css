@@ -2126,12 +2126,15 @@ CTA
     transform:translateX(8px);
 }
 
+/* ESTAÇÃO 08
+   Abre lateralmente para o centro do mapa */
+
 .station-08 .map-station-panel{
 
-    top:145px;
-    left:0;
+    top:50px;
+    left:190px;
 
-    transform:translateY(-8px);
+    transform:translateX(-8px);
 }
 /* Abertura */
 .map-station:hover .map-station-panel{
