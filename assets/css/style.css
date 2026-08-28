@@ -2845,7 +2845,18 @@ MAPA DA PESQUISA - CELULAR
     top:760px;
     transform:translateX(-50%);
 }
+/* Ilustrações - ajuste mobile */
 
+.journey-illustration-01{
+    position:absolute;
+    width:155px;
+
+    left:50%;
+    right:auto;
+    top:235px;
+
+    transform:translateX(-50%);
+}
 /* Destino final */
 
 .map-finish{
