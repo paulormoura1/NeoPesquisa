@@ -2828,7 +2828,23 @@ MAPA DA PESQUISA - CELULAR
 .map-station:hover .map-station-panel{
     transform:none;
 }
+/* Ilustrações da jornada - celular */
 
+.journey-illustration-01{
+    width:130px;
+    left:50%;
+    right:auto;
+    top:250px;
+    transform:translateX(-50%);
+}
+
+.journey-illustration-02{
+    width:140px;
+    left:50%;
+    right:auto;
+    top:760px;
+    transform:translateX(-50%);
+}
 
 /* Destino final */
 
