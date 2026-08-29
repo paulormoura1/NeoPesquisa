@@ -2891,6 +2891,49 @@ MAPA DA PESQUISA - CELULAR
 
     transform:translateX(-50%);
 }
+ .journey-illustration-05{
+    position:absolute;
+    width:180px;
+
+    left:50%;
+    right:auto;
+    top:2500px;
+
+    transform:translateX(-50%);
+}
+
+.journey-illustration-06{
+    position:absolute;
+    width:180px;
+
+    left:50%;
+    right:auto;
+    top:2950px;
+
+    transform:translateX(-50%);
+}
+
+.journey-illustration-07{
+    position:absolute;
+    width:180px;
+
+    left:50%;
+    right:auto;
+    top:3400px;
+
+    transform:translateX(-50%);
+}
+
+.journey-illustration-08{
+    position:absolute;
+    width:180px;
+
+    left:50%;
+    right:auto;
+    top:3850px;
+
+    transform:translateX(-50%);
+}
  
 /* Destino final */
 
