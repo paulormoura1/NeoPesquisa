@@ -2893,13 +2893,14 @@ MAPA DA PESQUISA - CELULAR
 
     transform:translateX(-50%);
 }
+ 
  .journey-illustration-05{
     position:absolute;
     width:180px;
 
     left:50%;
     right:auto;
-    top:2500px;
+    top:2900px;
 
     transform:translateX(-50%);
 }
