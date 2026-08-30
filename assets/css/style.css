@@ -2893,7 +2893,7 @@ MAPA DA PESQUISA - CELULAR
 
     transform:translateX(-50%);
 }
- 
+  
  .journey-illustration-05{
     position:absolute;
     width:180px;
@@ -2936,6 +2936,11 @@ MAPA DA PESQUISA - CELULAR
     top:3850px;
 
     transform:translateX(-50%);
+}
+ /* Espaço adicional antes da Estação 04 */
+
+.station-04{
+    margin-top:150px;
 }
  
 /* Destino final */
