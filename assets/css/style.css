@@ -2922,7 +2922,7 @@ MAPA DA PESQUISA - CELULAR
 
     left:50%;
     right:auto;
-    top:4350px;
+    top:4470px;
 
     transform:translateX(-50%);
 }
@@ -2950,6 +2950,11 @@ MAPA DA PESQUISA - CELULAR
  /* Espaço adicional antes da Estação 06 */
 
 .station-06{
+    margin-top:150px;
+}
+ /* Espaço adicional antes da Estação 07 */
+
+.station-07{
     margin-top:150px;
 }
 /* Destino final */
