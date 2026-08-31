@@ -41,17 +41,21 @@
 
         /* Configuração global do GTranslate */
 
-        window.gtranslateSettings = {
-            default_language: "pt",
-            languages: ["pt", "es", "en"],
-            wrapper_selector: ".gtranslate_wrapper",
-            switcher_open_direction: "top",
-            alt_flags: {
-                en: "usa",
-                pt: "brazil"
-            }
-        };
+       window.gtranslateSettings = {
+    default_language: "pt",
+    languages: ["pt", "es", "en"],
+    wrapper_selector: ".gtranslate_wrapper",
 
+    switcher_horizontal_position: "inline",
+    switcher_vertical_position: "",
+
+    switcher_open_direction: "bottom",
+
+    alt_flags: {
+        en: "usa",
+        pt: "brazil"
+    }
+};
         /* Carrega o GTranslate */
 
         const script = document.createElement("script");
