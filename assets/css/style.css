@@ -4431,38 +4431,6 @@ body{
 }
 
 .gtranslate_wrapper .gt_switcher{
-    width:62px !important;
-    font-family:inherit !important;
-}
-
-.gtranslate_wrapper .gt_selected{
-    width:62px !important;
-}
-
-.gtranslate_wrapper .gt_selected a{
-    width:62px !important;
-    min-width:62px !important;
-
-    padding:8px 20px 8px 10px !important;
-
-    box-sizing:border-box;
-
-    font-size:0 !important;
-}
-
-.gtranslate_wrapper .gt_selected a img{
-    display:none !important;
-}
-
-.gtranslate_wrapper .gt_selected a::after{
-    content:attr(data-lang);
-
-    font-size:14px;
-    font-weight:700;
-
-    color:var(--primary);
-}
-
-.gtranslate_wrapper .gt_option{
-    width:155px !important;
+    transform:scale(.82);
+    transform-origin:left center;
 }
