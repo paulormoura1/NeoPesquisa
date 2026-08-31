@@ -68,7 +68,53 @@
         document.body.appendChild(script);
 
     }
+/* Deixa o seletor compacto: PT / EN / ES */
 
+script.addEventListener("load", function () {
+
+    const wrapper = document.querySelector(".gtranslate_wrapper");
+
+    if (!wrapper) return;
+
+    function atualizarIdiomaCompacto() {
+
+        const selecionado = wrapper.querySelector(".gt_selected a");
+
+        if (!selecionado) return;
+
+        const texto = selecionado.textContent
+            .trim()
+            .toLowerCase();
+
+        let codigo = "PT";
+
+        if (texto.includes("english")) {
+            codigo = "EN";
+        }
+
+        if (
+            texto.includes("spanish") ||
+            texto.includes("español")
+        ) {
+            codigo = "ES";
+        }
+
+        selecionado.setAttribute("data-lang", codigo);
+    }
+
+    atualizarIdiomaCompacto();
+
+    const observer = new MutationObserver(
+        atualizarIdiomaCompacto
+    );
+
+    observer.observe(wrapper, {
+        childList:true,
+        subtree:true,
+        characterData:true
+    });
+
+});
     if (document.readyState === "loading") {
 
         document.addEventListener(
