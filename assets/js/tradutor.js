@@ -1,5 +1,62 @@
 (function () {
+    /* =====================================================
+       REDUZ O FLASH DO IDIOMA ORIGINAL
+    ===================================================== */
 
+    function idiomaTraduzidoAtivo() {
+
+        const cookie = document.cookie.match(
+            /(?:^|;\s*)googtrans=([^;]+)/
+        );
+
+        if (!cookie) return false;
+
+        const valor = decodeURIComponent(cookie[1]);
+
+        return valor.endsWith("/en") ||
+               valor.endsWith("/es");
+    }
+
+    let timerLiberacao = null;
+
+    function liberarPagina() {
+
+        document.documentElement.classList.remove(
+            "gt-aguardando-traducao"
+        );
+
+        if (timerLiberacao) {
+            clearTimeout(timerLiberacao);
+        }
+    }
+
+    if (idiomaTraduzidoAtivo()) {
+
+        const estilo = document.createElement("style");
+
+        estilo.textContent = `
+            html.gt-aguardando-traducao body{
+                opacity:0;
+            }
+
+            body{
+                transition:opacity .12s ease;
+            }
+        `;
+
+        document.head.appendChild(estilo);
+
+        document.documentElement.classList.add(
+            "gt-aguardando-traducao"
+        );
+
+        /* Segurança: nunca deixa a página oculta */
+
+        timerLiberacao = setTimeout(
+            liberarPagina,
+            1200
+        );
+    }
     function iniciarTradutor() {
 
         const header = document.querySelector("header .container");
@@ -71,7 +128,9 @@
 script.addEventListener("load", function () {
 
     const wrapper = document.querySelector(".gtranslate_wrapper");
-
+    
+    setTimeout(liberarPagina, 300);
+    
     if (!wrapper) return;
 
     function compactarIdioma() {
@@ -124,6 +183,7 @@ script.addEventListener("load", function () {
     });
 
 });
+        script.addEventListener("error", liberarPagina);
     }
 
     if (document.readyState === "loading") {
