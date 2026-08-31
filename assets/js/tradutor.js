@@ -66,7 +66,64 @@
         script.defer = true;
 
         document.body.appendChild(script);
+/* Nome compacto do idioma: PT / EN / ES */
 
+script.addEventListener("load", function () {
+
+    const wrapper = document.querySelector(".gtranslate_wrapper");
+
+    if (!wrapper) return;
+
+    function compactarIdioma() {
+
+        const selecionado = wrapper.querySelector(".gt_selected a");
+
+        if (!selecionado) return;
+
+        const texto = selecionado.textContent
+            .trim()
+            .toLowerCase();
+
+        let codigo = "PT";
+
+        if (texto.includes("english") || texto === "en") {
+            codigo = "EN";
+        }
+
+        if (
+            texto.includes("spanish") ||
+            texto.includes("español") ||
+            texto === "es"
+        ) {
+            codigo = "ES";
+        }
+
+        const textoOriginal = Array
+            .from(selecionado.childNodes)
+            .find(function (node) {
+                return node.nodeType === 3 &&
+                       node.textContent.trim() !== "";
+            });
+
+        if (
+            textoOriginal &&
+            textoOriginal.textContent.trim() !== codigo
+        ) {
+            textoOriginal.textContent = " " + codigo;
+        }
+    }
+
+    compactarIdioma();
+
+    const observer = new MutationObserver(compactarIdioma);
+
+    observer.observe(wrapper, {
+        childList: true,
+        subtree: true,
+        characterData: true
+    });
+
+});
     }
 
     if (document.readyState === "loading") {
