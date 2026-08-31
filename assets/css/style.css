@@ -2947,6 +2947,11 @@ MAPA DA PESQUISA - CELULAR
 .station-05{
     margin-top:140px;
 }
+ /* Espaço adicional antes da Estação 06 */
+
+.station-06{
+    margin-top:150px;
+}
 /* Destino final */
 
 .map-finish{
