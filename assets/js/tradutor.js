@@ -186,17 +186,61 @@ script.addEventListener("load", function () {
         script.addEventListener("error", liberarPagina);
     }
 
-    if (document.readyState === "loading") {
+  /* Inicia o tradutor assim que o cabeçalho estiver disponível */
 
-        document.addEventListener(
-            "DOMContentLoaded",
-            iniciarTradutor
-        );
+function iniciarAssimQuePossivel() {
 
-    } else {
+    if (document.querySelector("header .container")) {
 
         iniciarTradutor();
+        return true;
 
     }
+
+    return false;
+}
+
+if (!iniciarAssimQuePossivel()) {
+
+    const observadorHeader = new MutationObserver(function () {
+
+        if (iniciarAssimQuePossivel()) {
+
+            observadorHeader.disconnect();
+
+        }
+
+    });
+
+    observadorHeader.observe(
+        document.documentElement,
+        {
+            childList: true,
+            subtree: true
+        }
+    );
+
+    /* Segurança caso o observer não detecte */
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+
+            if (document.querySelector("header .container")) {
+
+                observadorHeader.disconnect();
+
+                /* evita duplicação */
+                if (!document.querySelector(".gtranslate_wrapper")) {
+                    iniciarTradutor();
+                }
+
+            }
+
+        },
+        { once: true }
+    );
+
+}
 
 })();
