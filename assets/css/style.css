@@ -4455,3 +4455,146 @@ body{
 .gtranslate_wrapper .gt_option{
     width:145px !important;
 }
+/* =========================================
+   APOIO À REDAÇÃO CIENTÍFICA
+   Página: Referências e Citações
+========================================= */
+
+.writing-support-panel {
+    margin-top: 45px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+
+/* Cabeçalho do painel */
+
+.writing-support-header {
+    padding: 34px 38px 28px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.writing-support-header span {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background: #eef2ff;
+    color: #5b46e8;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.writing-support-header h3 {
+    margin: 0 0 14px;
+    color: #0d3b66;
+    font-size: 1.65rem;
+    line-height: 1.3;
+}
+
+.writing-support-header p {
+    max-width: 780px;
+    margin: 0 auto;
+    color: #475569;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+
+/* Abas */
+
+.writing-support-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    background: #f8fafc;
+}
+
+.writing-tab {
+    padding: 17px 20px;
+    border: 0;
+    border-right: 1px solid #e2e8f0;
+    background: transparent;
+    color: #334155;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.writing-tab:last-child {
+    border-right: 0;
+}
+
+.writing-tab:hover {
+    background: #eef2ff;
+    color: #4f46e5;
+}
+
+.writing-tab.active {
+    background: #123f63;
+    color: #ffffff;
+}
+
+.writing-tab:focus-visible {
+    outline: 3px solid rgba(79, 70, 229, 0.25);
+    outline-offset: -3px;
+}
+
+
+/* Área de conteúdo */
+
+.writing-support-content {
+    padding: 32px 38px 38px;
+    background: #ffffff;
+}
+
+.writing-tab-panel[hidden] {
+    display: none;
+}
+
+.writing-tab-panel h4 {
+    margin: 0 0 22px;
+    color: #0d3b66;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+
+/* Expressões */
+
+.writing-expression-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.writing-expression-grid span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 10px 14px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    color: #1e3a5f;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.writing-expression-grid span:hover {
+    background: #eef2ff;
+    border-color: #c7d2fe;
+    transform: translateY(-2px);
+}
