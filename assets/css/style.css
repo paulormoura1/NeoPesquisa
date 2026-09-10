@@ -4598,3 +4598,36 @@ body{
     border-color: #c7d2fe;
     transform: translateY(-2px);
 }
+/* Ver mais opções - painel de redação científica */
+
+.writing-more {
+    margin-top: 22px;
+}
+
+.writing-more summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #4f46e5;
+    font-size: 0.92rem;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+}
+
+.writing-more summary::-webkit-details-marker {
+    display: none;
+}
+
+.writing-more summary::before {
+    content: "▸";
+    transition: transform 0.2s ease;
+}
+
+.writing-more[open] summary::before {
+    transform: rotate(90deg);
+}
+
+.writing-expression-grid-extra {
+    margin-top: 18px;
+}
