@@ -5106,3 +5106,27 @@ body{
     }
 
 }
+/* ==================================================
+   RETORNO À NEOPESQUISA
+================================================== */
+
+.partners-return{
+    display:flex;
+    justify-content:center;
+    margin-top:35px;
+}
+
+.partners-return .btn-secondary{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@media (max-width:768px){
+
+    .partners-return .btn-secondary{
+        width:100%;
+        text-align:center;
+    }
+
+}
