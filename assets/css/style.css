@@ -4631,3 +4631,478 @@ body{
 .writing-expression-grid-extra {
     margin-top: 18px;
 }
+/* ==================================================
+   PÁGINA PARCEIROS INSTITUCIONAIS
+================================================== */
+
+/* HERO */
+
+.partners-hero{
+    overflow:hidden;
+}
+
+.partners-hero .hero-page-content h1{
+    font-size:3.5rem;
+}
+
+.partners-hero .btn-primary{
+    display:inline-block;
+}
+
+.partners-hero-visual{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.partners-hero-icon{
+    position:relative;
+    width:320px;
+    height:320px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+    border-radius:50%;
+    box-shadow:0 30px 70px rgba(79,70,229,.22);
+}
+
+.partners-hero-icon::before,
+.partners-hero-icon::after{
+    content:"";
+    position:absolute;
+    border-radius:50%;
+    border:2px solid rgba(79,70,229,.14);
+}
+
+.partners-hero-icon::before{
+    width:390px;
+    height:390px;
+}
+
+.partners-hero-icon::after{
+    width:460px;
+    height:460px;
+}
+
+.partners-hero-icon svg{
+    width:135px;
+    height:135px;
+    color:#ffffff;
+    stroke-width:1.5;
+}
+
+
+/* SOBRE AS PARCERIAS */
+
+.partners-about{
+    padding:110px 0;
+    background:#ffffff;
+}
+
+.partners-about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.partners-about-content h2{
+    margin-bottom:28px;
+    font-family:var(--font-title);
+    font-size:2.8rem;
+    line-height:1.25;
+    color:var(--primary);
+}
+
+.partners-about-content p{
+    margin-bottom:20px;
+    color:#4F5D75;
+    font-size:1.1rem;
+    line-height:1.9;
+}
+
+.partners-principles{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.partners-principle{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    padding:25px;
+    background:#F8FAFC;
+    border:1px solid #E8ECF3;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.partners-principle:hover{
+    transform:translateX(6px);
+    border-color:rgba(79,70,229,.25);
+    box-shadow:0 12px 30px rgba(15,23,42,.07);
+}
+
+.partners-principle > svg{
+    width:34px;
+    height:34px;
+    flex-shrink:0;
+    color:var(--secondary);
+}
+
+.partners-principle h3{
+    margin-bottom:8px;
+    color:var(--primary);
+    font-family:var(--font-title);
+    font-size:1.2rem;
+}
+
+.partners-principle p{
+    color:#4F5D75;
+    line-height:1.7;
+}
+
+
+/* INSTITUIÇÕES PARCEIRAS */
+
+.partners-institutions{
+    padding:110px 0;
+    background:#F8FAFD;
+}
+
+.partners-grid{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0,1fr));
+    gap:30px;
+}
+
+.partners-empty-state{
+    grid-column:1 / -1;
+    max-width:760px;
+    margin:0 auto;
+    padding:55px 40px;
+    background:#ffffff;
+    border:1px dashed #C7D2FE;
+    border-radius:24px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(15,23,42,.05);
+}
+
+.partners-empty-icon{
+    width:82px;
+    height:82px;
+    margin:0 auto 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#EEF2FF;
+    border-radius:50%;
+}
+
+.partners-empty-icon svg{
+    width:40px;
+    height:40px;
+    color:var(--secondary);
+}
+
+.partners-empty-state h3{
+    margin-bottom:15px;
+    color:var(--primary);
+    font-family:var(--font-title);
+    font-size:1.5rem;
+}
+
+.partners-empty-state p{
+    max-width:590px;
+    margin:0 auto;
+    color:#4F5D75;
+    font-size:1.05rem;
+    line-height:1.8;
+}
+
+
+/* CARTÃO DE FUTURO PARCEIRO */
+
+.partner-card{
+    display:grid;
+    grid-template-columns:190px 1fr;
+    gap:30px;
+    align-items:center;
+    padding:35px;
+    background:#ffffff;
+    border:1px solid #E8ECF3;
+    border-radius:24px;
+    box-shadow:0 12px 35px rgba(15,23,42,.06);
+    transition:.3s;
+}
+
+.partner-card:hover{
+    transform:translateY(-6px);
+    border-color:rgba(79,70,229,.25);
+    box-shadow:0 22px 50px rgba(15,23,42,.10);
+}
+
+.partner-logo{
+    min-height:160px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:22px;
+    background:#F8FAFC;
+    border-radius:18px;
+}
+
+.partner-logo img{
+    width:100%;
+    max-width:150px;
+    max-height:110px;
+    object-fit:contain;
+}
+
+.partner-label{
+    display:inline-block;
+    margin-bottom:12px;
+    padding:6px 12px;
+    background:#EEF2FF;
+    color:var(--secondary);
+    border-radius:30px;
+    font-size:.78rem;
+    font-weight:700;
+}
+
+.partner-content h3{
+    margin-bottom:12px;
+    color:var(--primary);
+    font-family:var(--font-title);
+    font-size:1.45rem;
+}
+
+.partner-content p{
+    margin-bottom:20px;
+    color:#4F5D75;
+    line-height:1.75;
+}
+
+.partner-content a{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    color:var(--secondary);
+    text-decoration:none;
+    font-weight:700;
+}
+
+.partner-content a:hover{
+    text-decoration:underline;
+}
+
+.partner-content a svg{
+    width:18px;
+    height:18px;
+}
+
+
+/* CONVITE INSTITUCIONAL */
+
+.partners-cta{
+    padding:90px 0;
+    background:#ffffff;
+}
+
+.partners-cta-content{
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    gap:35px;
+    align-items:center;
+    padding:50px;
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        #214F7B
+    );
+    border-radius:28px;
+    box-shadow:0 25px 60px rgba(15,61,110,.18);
+}
+
+.partners-cta-icon{
+    width:90px;
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+    background:rgba(255,255,255,.12);
+    border-radius:22px;
+}
+
+.partners-cta-icon svg{
+    width:44px;
+    height:44px;
+    color:#ffffff;
+}
+
+.partners-cta-text span{
+    display:inline-block;
+    margin-bottom:10px;
+    color:#C7D2FE;
+    font-size:.9rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+}
+
+.partners-cta-text h2{
+    margin-bottom:12px;
+    color:#ffffff;
+    font-family:var(--font-title);
+    font-size:2rem;
+    line-height:1.3;
+}
+
+.partners-cta-text p{
+    color:rgba(255,255,255,.82);
+    font-size:1.05rem;
+    line-height:1.7;
+}
+
+.partners-cta .btn-primary{
+    white-space:nowrap;
+    background:#ffffff;
+    color:var(--primary);
+}
+
+
+/* COMPROMISSO INSTITUCIONAL */
+
+.partners-commitment{
+    padding:0 0 100px;
+    background:#ffffff;
+}
+
+.partners-commitment-box{
+    display:flex;
+    align-items:flex-start;
+    gap:22px;
+    max-width:900px;
+    margin:0 auto;
+    padding:30px 35px;
+    background:#F8FAFC;
+    border-left:5px solid var(--secondary);
+    border-radius:16px;
+}
+
+.partners-commitment-box > svg{
+    width:34px;
+    height:34px;
+    flex-shrink:0;
+    color:var(--secondary);
+}
+
+.partners-commitment-box h2{
+    margin-bottom:10px;
+    color:var(--primary);
+    font-size:1.35rem;
+}
+
+.partners-commitment-box p{
+    color:#4F5D75;
+    line-height:1.8;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width:991px){
+
+    .partners-about-grid{
+        grid-template-columns:1fr;
+        gap:45px;
+    }
+
+    .partners-grid{
+        grid-template-columns:1fr;
+    }
+
+    .partners-cta-content{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .partners-cta-icon{
+        margin:0 auto;
+    }
+
+    .partners-cta .btn-primary{
+        justify-self:center;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .partners-hero .hero-page-content h1{
+        font-size:1.8rem;
+    }
+
+    .partners-about,
+    .partners-institutions{
+        padding:70px 0;
+    }
+
+    .partners-about-content h2{
+        font-size:2rem;
+    }
+
+    .partners-principle{
+        padding:22px;
+    }
+
+    .partners-empty-state{
+        padding:40px 22px;
+    }
+
+    .partner-card{
+        grid-template-columns:1fr;
+        padding:25px;
+        text-align:center;
+    }
+
+    .partner-content a{
+        justify-content:center;
+    }
+
+    .partners-cta{
+        padding:65px 0;
+    }
+
+    .partners-cta-content{
+        padding:35px 24px;
+        gap:25px;
+    }
+
+    .partners-cta-text h2{
+        font-size:1.65rem;
+    }
+
+    .partners-cta .btn-primary{
+        width:100%;
+        text-align:center;
+        white-space:normal;
+    }
+
+    .partners-commitment{
+        padding-bottom:70px;
+    }
+
+    .partners-commitment-box{
+        flex-direction:column;
+        padding:26px 24px;
+    }
+
+}
