@@ -5130,3 +5130,83 @@ body{
     }
 
 }
+/* ==================================================
+   RODAPÉ — PARCEIROS INSTITUCIONAIS
+================================================== */
+
+.partners-footer{
+    padding:45px 0;
+    background:var(--primary);
+    color:#ffffff;
+}
+
+.partners-footer-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+}
+
+.partners-footer-text{
+    max-width:720px;
+}
+
+.partners-footer-text span{
+    display:block;
+    margin-bottom:10px;
+    color:#C7D2FE;
+    font-size:.85rem;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+}
+
+.partners-footer-text p{
+    margin:0;
+    color:rgba(255,255,255,.85);
+    font-size:1rem;
+    line-height:1.7;
+}
+
+.partners-footer-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+    padding:14px 24px;
+    background:#ffffff;
+    color:var(--primary);
+    border:2px solid #ffffff;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.partners-footer-link:hover{
+    background:transparent;
+    color:#ffffff;
+    transform:translateY(-2px);
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width:768px){
+
+    .partners-footer{
+        padding:38px 0;
+    }
+
+    .partners-footer-content{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:25px;
+    }
+
+    .partners-footer-link{
+        width:100%;
+        text-align:center;
+    }
+
+}
